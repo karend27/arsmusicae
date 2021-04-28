@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<?xml-stylesheet href="translation.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- full bibliographic description of the electronic file -->
+            <titleStmt>
+                <title>Omni desideranti notitiam</title>
+                <editor>Karen Desmond</editor>
+            </titleStmt>
+            <publicationStmt><p>Unpublished</p></publicationStmt>
+            <sourceDesc> Chicago, Newberry Library, Ms. 54.1
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <front>
+       
+            <witList>
+                <witness xml:id="Cn" >'Omni desideranti' (Cn 54.1)</witness>
+            </witList>
+        
+    </front>
+    
+    <text>
+        <body>
+            <!-- Chapter 1 -->
+            <div type="chapter" n="1" corresp="#omnid1" xml:id="trans1">
+                <p>The venerable master Philippe de Vitry composed this treatise on music. For anyone wishing to gain knowledge of the techniques of mensural music, both new and old, I venture here to outline faithfully, insofar as I am able, certain rules presented in a short compendium. In the olden days, Franco was noted to have passed these on; more recently, they were to have been subtly uncovered by Philip. Since, in this work, it is correct to measure pitches or notes proportionally, and accordingly, the longs or breves, semibreves and minims are figured. Therefore, to their figuration and value we may quickly proceed.
+                </p>
+            </div>
+            <div type="chapter" n="2" corresp="#omnid2" xml:id="trans2">
+                <p>The long, is figured as a quadratic form, with a stroke from the right side, descending or ascending, or with two strokes, of which the right is longer than the left. This note is called a plica longa and it is worth three tempora in the perfect mode; two, however, in the imperfect.</p>
+            </div>   
+            <div type="chapter" n="3" corresp="#omnid3" xml:id="trans3">
+                <p>The mode is imperfect when these breves or tempora are computed through a binary number. It is said to be imperfect in the same way that the binary number is imperfect. Indeed, the ternary number is perfect having been taken from the Trinity - that is, the Father, Son and Holy Spirit - wherein there exists the highest perfection.
+                </p>
+            </div>
+            <div type="chapter" n="4" corresp="#omnid4" xml:id="trans4">
+                <p>
+                The perfect mode is known through rests: when the rests between longs are perfect or when it is better to compute the tempora from one long to another long in threes rather than in twos, as is demonstrated below. 
+                <figure>
+                    <graphic url="images/Cn_ex_1.jpg" xml:id="Cn_ex_1"/>
+                </figure>
+                </p>
+            </div>
+            <div type="chapter" n="5" corresp="#omni5">
+                <p>
+                Although a long is worth three tempora in the perfect mode, as was just mentioned, it nevertheless may be imperfected in three ways: that is, if a single breve follows it, or precedes it, or when more than three breves follow it, it is similarly imperfected, as shown here. </p>
+                <figure>
+                    <graphic url="images/Cn_ex_2.jpg" xml:id="Cn_ex_2"/>
+                </figure>    
+            </div>
+            <div type="chapter" n="6" corresp="#omni6">
+                <p>
+                If two or three breves follow this long and the long is not preceded by a single breve (which could imperfect it), this long is perfect, unless a point of division is placed between the first and second breves, or between the first and the others following.
+                </p></div>
+            <div type="chapter" n="7" corresp="#omni7">
+                <p>A long before a long in perfect mode is perfect. And a long, immediately after which is placed a point, which is called a point of perfection, is similarly perfect in imperfect mode, as shown here. 
+                    <figure>
+                        <graphic url="images/Cn_ex_3.jpg" xml:id="Cn_ex_3"/>
+                    </figure>
+                </p></div>
+                
+            <div type="chapter" n="8" corresp="#omni8">
+                <p>
+                    There is another note with a quadratic form and with a stroke on the right side or with two strokes, on the right and the opposite side, just as the long described above, but it is twice as wide as this long. This note is called a duplex long and it is worth six tempora in the perfect mode and four in the imperfect mode. It is imperfected in two ways, namely: if it is followed by a single breve (not preceded by one), just as I will show below; or, when there are more than three breves following this doubled long, and then it is worth but five tempora, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_4.jpg" xml:id="Cn_ex_4"/>
+                    </figure>
+                </p></div>
+                
+            <div type="chapter" n="9" corresp="#omni9">
+                <p>Breves are figured as a quadratic form without a stroke. If there is a stroke from the left side, or two, of which the left is longer than the right, then this first note is called a plica breve and it is worth three semibreves in perfect tempus. A perfect tempus of semibreves is when there are three semibreves for any breve, either by holding for the value of them, or by the numbering of the its perfection. The tempus is imperfect, when its value, with respect to its semibreves, is numbered, varied and measured as here. 
+                    <figure>
+                        <graphic url="images/Cn_ex_5.jpg" xml:id="Cn_ex_5"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="10" corresp="#omni10">
+                <p>
+                A breve can be imperfected in three ways: that is, when it is followed by a single semibreve, or preceded by one, or when more than three semibreves follow this breve, as here.
+                    <figure>
+                        <graphic url="images/Cn_ex_6.jpg" xml:id="Cn_ex_6"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="11" corresp="#omni11">
+                <p>
+                If two or three semibreves follow the breve, and there is no semibreve preceding it, the single breve is said to be a perfect breve, except if a point of division is placed, in between the second and first semibreves, or between the first semibreve and the others following it. And just as a long before a long is perfect, so a breve before a breve is said to be perfect. When a point is placed immediately after a breve it perfects this breve in imperfect tempus, except when this point is otherwise assigned for a division of the mode, as here.
+                    <figure>
+                        <graphic url="images/Cn_ex_7.jpg" xml:id="Cn_ex_7"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="12" corresp="#omni12">
+                <p>
+                A breve is imperfected in two ways, namely, by a single minim that follows it (not however, by a preceding minim), or by more than three following this breve. Although many hold that this breve could be imperfected by the [rule of the] preceding part with a minim, just as the duplex long is imperfected similarly by the preceding part with a breve. I say that this is false. For this breve is not imperfected by a minim, with respect to its whole, for a minim does not subordinate a breve. And the same goes for the semibreve. Therefore with respect to the part – the semibreve - from this I argue, where a breve is imperfected, it is not imperfected by the minim, with respect to its [the breve’s] whole, but rather to the breve’s part, namely, the semibreve, and thus to the semibreve as it is a semibreve, and the long before the long, are never able to be perfected by the [rule of the] preceding part but rather the following part, as here.
+                    <figure>
+                        <graphic url="images/Cn_ex_8.jpg" xml:id="Cn_ex_8"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="13" corresp="#omni13">
+                <p>
+                Of breves: one is recta, and one is called altera. A recta is worth one and an altera two. Whence wherever two breves are found between two longs, the first is recta, and the second is altera, and it is called altera because it is altered in nature. For the breve is naturally worth one tempus and when it is worth two it is altered. When two breves are found between a point of division and a long, or between a long and a point, the second is altera, as shown here. 
+                    <figure>
+                        <graphic url="images/Cn_ex_9.jpg" xml:id="Cn_ex_9"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="14" corresp="#omni14">
+                <p>
+                A semibreve is figured in the manner of an oblique body which is worth three minims in major prolation, and two, moreover, in minor prolation. Many ignorant people say that semibreves are always worth three minims. But this is against Franco, who said, within his discussion of longs and semibreves and other things, that that longs and breves are found to be perfect and imperfect, through the distinction of mode and tempus. So I say that a similar distinction is to be found in semibreves, of major and minor prolation. Major prolation is the larger or broader measure, giving a semibreve worth three minims or their value. Minor prolation is a briefer and moderate measure, under which there are two minims for the semibreve, as much as it is can be brought forth, as here.  
+                    <figure>
+                        <graphic url="images/Cn_ex_10.jpg" xml:id="Cn_ex_10"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="15" corresp="#omni15">
+                <p>Whence a semibreve is imperfected in three ways, just like the breve and long, namely: when a single minim follows [the semibreve] or precedes it, or when more than three minims follow it (just as it is with the long and breve, as was said above), as here. 
+                    <figure>
+                        <graphic url="images/Cn_ex_11.jpg" xml:id="Cn_ex_11"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="16" corresp="#omni16">
+                <p>
+                And if as many as two minims, or three follow the semibreve, and the semibreve is not preceded by a single minim, it is perfect, except if a point of division is placed between the first and the second, or between the first and the other minims that follow, as shown here. 
+                    <figure>
+                        <graphic url="images/Cn_ex_12.jpg" xml:id="Cn_ex_12"/>
+                    </figure>
+                </p></div>
+            <div type="chapter" n="17" corresp="#omni17">
+                <p>Moreover a semibreve can altered to its opposite, just like a breve,  such as when two semibreves are found between two breves, or between a point of division and a breve, or between a point and a breve, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_13.jpg" xml:id="Cn_ex_13"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="18" corresp="#omni18">
+                <p>The minim is altered in many ways, since the rationale behind the concept of alteration is this: wherever something is missing by nature, it ought to be repaired by artifice, or it will remain imperfect, as when two breves are found, or two semibreves, and similarly it is with respect to that missing from two minims. Where the Trinity is, there is perfection, therefore it is necessary to repair the first, through the alteration of one of these minims, that is, the second minim. If it is said that one of these breves could be an imperfect long, I say that it cannot. Because according to the following long it is necessary that this is perfect through the rule discussed above, the long moreover and contra. Whence the breve is altered by being perfected with respect to the mode, the semibreve with respect to the tempus, and the minim with respect to the perfection [prolation?], and so mode, tempus, or prolation are similarly perfect, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_14.jpg" xml:id="Cn_ex_14"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="19" corresp="#omni19">
+                <p>
+                And it is noted that there are two points, about which I said many things above: there is the point of perfection, which always perfects the long with respect to mode, and the breve with respect to tempus, and the semibreve with respect to prolation. There is also the point of division, and this point imperfects the long by dividing breves, it imperfects the breve by dividing semibreves, and it imperfects the breve by dividing minims. </p></div>
+            <div type="chapter" n="20" corresp="#omni20">
+                <p>Whence it must be seen how this point of division is distinguished from the point of perfection, for one is defined by its ability to imperfect figures, and another to perfect, as I said. Wherever a point is placed after a long, it is said to be of perfection, and when after a minim, it is placed for division and thus it is assigned. And it is noted that the division is threefold and the perfection is threefold, namely, of mode, of tempus, and of prolation.</p></div>
+            <div type="chapter" n="21" corresp="#omni21">
+                <p>
+                If a point should be placed between two breves, it ought to divide the modus, except if perchance the breves might be felt to be in imperfect tempus, after which a single semibreve might follow, which is reduced in syncopation to the aforementioned breve punctuated by a point of perfection.</p></div>
+            <div type="chapter" n="22" corresp="#omni22">
+                <p>
+                Should a point be placed immediately after the breve, following a lone semibreve, it
+                is always said to be for the perfection of the tempus. And, if a point is placed
+                after the semibreve, it is said to be for the perfection of the prolation, to wit,
+                the semibreve. And then if a semibreve follows after this punctuated semibreve, the
+                point is assigned for the division of the tempus, except perchance the semibreves
+                are in minor prolation, after which any single minim might follow, which is reduced to the aforementioned semibreve by a point of perfection to the punctuated semibreve through syncopation. And this is how one point is known from another, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_15.jpg" xml:id="Cn_ex_15"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="23" corresp="#omni23">
+                <p>
+                For the distinction of the mode, tempus, and prolation, should be twofold, as I said. This can be seen
+                from the signs by which they are distinguished: a quadrangle with three little
+                strokes is used for the perfect mode, and a quadrangle with two little strokes is
+                used for the imperfect mode, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_16.jpg" xml:id="Cn_ex_16"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="24" corresp="#omni24">
+                <p>A circle is placed for perfect tempus. A semicircle for imperfect tempus as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_17.jpg" xml:id="Cn_ex_17"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="25" corresp="#omni25">
+                <p>Just as there is a distinction made with a sign between the perfect mode and
+                imperfect, so there is also a distinction made between minor and major prolation,
+                and I say that it is varied in the sign of this tempus in which it is
+                assigned (as above), within which three points ought to be placed for major
+                prolation and two moreover for minor, as here.
+                    <figure>
+                        <graphic url="images/Cn_ex_18.jpg" xml:id="Cn_ex_18"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="26" corresp="#omni26">
+                <p>Moreover the mode, tempus, and prolation, are distinguished through red figures.
+                Whence, if a red long is placed, it is placed to the right. If they are in
+                perfect mode when black, then they are in imperfect mode when red, and vice versa, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_19.jpg" xml:id="Cn_ex_19"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="27" corresp="#omni28">
+                <p>Red breves are placed to differentiate their tempus, so that if breve is black in
+                perfect time, it will be imperfect when red, and vice versa. Except when  it is
+                ordered by some chance, as in the motet tenor which is called “In arboris” or in the
+                tenor of “In nova fert animus” as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_20.jpg" xml:id="Cn_ex_20"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="28" corresp="#omni28">
+                <p>Red semibreves are placed to the differentiation of the prolation so that if black they are from major prolation, red they will be from minor, and vice versa. Except if the semibreves perchance are ordered with some breve, because then they may be placed to the differentiation of the tempus, as is the tenor from “In arboris” found here.
+                    <figure>
+                        <graphic url="images/Cn_ex_21.jpg" xml:id="Cn_ex_21"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="29" corresp="#omni29">
+                <p>Syncopation is the division of any of the figures into separate parts, which are in
+                turn reduced by numbering their perfections, and it is threefold, to wit, in mode,
+                tempus and prolation. If it is made in mode, either it is made in perfect mode or
+                imperfect. If it is made in perfect mode, then we find three breves having been
+                separated, or equal to the value of a long, or one breve with one rest of two
+                tempora which is leads back to the breve. If it is made in imperfect mode, then we
+                find two breves having been separated as such where their perfections are led back in
+                turn by numbering of the mode, as here.
+                    <figure>
+                        <graphic url="images/Cn_ex_22.jpg" xml:id="Cn_ex_22"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="30" corresp="#omni30">
+                <p>Now if a syncopation is made in tempus, it is either in perfect tempus or in
+                imperfect tempurs. If it is made in perfect tempus, then the breve is divided into
+                three semibreves, having been separated by as much as either the value to which they
+                are similarly by turn reduced, or this semibreve itself is punctuated by that point
+                of perfection to which the third part of any single separated semibreve is reduced, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_23.jpg" xml:id="Cn_ex_23"/>
+                    </figure></p>
+            </div>
+            <div type="chapter" n="31" corresp="#omni31">
+                <p>Similarly, in prolation, syncopation is twofold: either in major prolation or in
+                minor. Now if major, then we find three minims separated by a semibreve, and the
+                minims are are in turn led back to this by numbering the perfections of the
+                prolation. Now if it is made in minor prolation, then we find two minims, separated
+                as by a semibreve, which by numbering perfections of its prolation by turn it is reduced as here.
+                    <figure>
+                        <graphic url="images/Cn_ex_24.jpg" xml:id="Cn_ex_24"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="32" corresp="#omni32">
+                <p>Of ligatures one is ascending, the other descending. And because the "Art" speaks concerning first things, middle things and the last of these things, therefore concerning the beginnings and the ends descending of a ligature we first may see just as the art first descending without a stroke is a long, but if it will have a stroke descending from its left part, it is said to be a breve. Similarly every last note of a desceding ligature is said to be a long, except if it is figured otherwise in its body, as will be shown below.
+                    <figure>
+                        <graphic url="images/Cn_ex_25.jpg" xml:id="Cn_ex_25"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="33" corresp="#omni33">
+                <p>Now concerning the first and the last parts of ligatures just as the "Art" said that the first ascending always is a breve, except if from the right part it will have a descending part. Similarly, every ultimate ascending is a breve, except if there is placed, above the penultimate, or from the right part, an ascending stroke or similarly a descending one, as here.
+                    <figure>
+                        <graphic url="images/Cn_ex_26.jpg" xml:id="Cn_ex_26"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="34" corresp="#omni34">
+                <p>Now every ascending stroke in the beginning of the ligature by position, by the descending ones or ascending ones, it makes the first ones to be semibreves. And every middle ones are breves of which they may be ligatures, as shown here.
+                    <figure>
+                        <graphic url="images/Cn_ex_27.jpg" xml:id="Cn_ex_27"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="chapter" n="35" corresp="#omni35">
+                <p>A rest is the omission of pitch, or the measured breath through as many note forms
+                as it is figured. Whence the rest is worth as many tempora as it contains spaces.
+                For if it holds one, it is worth one. If it holds two, it is worth two. If it holds
+                three, it is worth three. If it holds four, it is immensurable. But that rest which
+                holds half the space by descending is worth one semibreve from the prolation to
+                which it belongs. Therefore, the minim rest along with a minor rest are not to be
+                found other than by half a space. I say briefly and this is held by all the experts
+                in science, that a semibreve rest ought to descend below the line. A rest of a minim ought to ascend above a line by holding half a space, as shown here.
+                
+                    <figure>
+                        <graphic url="images/Cn_ex_28.jpg" xml:id="Cn_ex_28"/>
+                    </figure>
+                </p>
+            </div>   
+                <div type="explicit" corresp="omnid36">
+                    <p>Here ends the Perfect Art of Music of Master Philip de Vitry.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

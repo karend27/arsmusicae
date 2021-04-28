@@ -1,0 +1,191 @@
+
+/** BASIC */
+
+body {
+	font-family: "Georgia","Lucida Sans Unicode","Arial Unicode MS";
+	font-size: .9em;
+	color: #696969;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #746D12;
+}
+
+p, ol, ul {
+	line-height: 160%;
+}
+
+a {
+	color: #746D12;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #F47511;
+}
+
+/** HEADER */
+
+#header {
+	float: left;
+}
+
+#header h1 {
+	margin: 0px;
+	font-size: 2.2em;
+}
+
+#header a {
+	margin: 0px;
+	
+	text-decoration:none;
+}
+
+#header h2 {
+	margin: 0px;
+	font-size: 1em;
+}
+
+/** MENU */
+
+#menu {
+	padding: 2.2em 0em 0em 2em;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: right;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	margin: 0px 0px 0px 0px;
+	padding: .2em 1em;
+	background-color: #F47511;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: smaller;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background-color: #746D12;
+}
+
+/** CONTENT */
+
+#content {
+	clear: both;
+	margin: 1em 0px;
+	padding: 1em 0px;
+	border-top: 3px dotted #CCCCCC;
+}
+
+#content h2 {
+}
+
+#left {
+	float: left;
+	width: 50%;
+	padding-right: 4%;
+	/**background:rgb(243,217,188);*/
+	background:#fff;
+	overflow:auto;
+}
+
+#right {
+	float: left;
+	width: 40%;
+	padding-left: 4%;
+	border-left: 1px dashed #CCCCCC;
+	overflow:auto;
+}
+
+#translation {
+	float: left;
+	width: 80%;
+	padding-right: 4%;
+	background:#fff;
+	overflow:auto;
+}
+
+hr {
+    border-top: 1px dashed #ccc;
+    color: #fff;
+}
+
+/** FOOTER */
+
+#footer {
+	clear: both;
+}
+
+#footer p {
+	margin: 0px;
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+	font-size: small;
+	color: #696969;
+}
+
+/** CHAPTER PARAGRAPHS*/
+paragraphChapter {
+    }
+    
+/** CHAPTER NUMBER */
+a.paragraphnumber {
+    font-weight: normal;
+	color: #F47511;
+	padding-right: 10px;
+	text-decoration:none;
+	
+}
+a.paragraphnumber:hover [
+    text-decoration:none;
+  
+}
+
+/** CRITICAL APP 
+.error {
+    color:#f00;
+}
+.witnessName {
+    color:red;
+    }
+}
+*/
+/** FOOTNOTE REFERENCE NUMBERS */
+a.footnote {
+    text-decoration: none;
+    color:#696969;
+    font-size:.9em;
+    padding-right:3px;
+    padding-left:0px;
+    }
+a.footnote:hover {
+    text-decoration: underline; 
+}
+
+li.footnote {
+    list-style-type:none;
+}
+
+
+
+/** FOOTNOTE DISPLAY */
+ul.variantlist {
+list-style-type: none;
+    }
+}
+
+.hidden { visibility: hidden; }

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<?xml-stylesheet href="transcription_test.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- full bibliographic description of the electronic file -->
+            <titleStmt>
+                <title>Omni desideranti notitiam</title>
+                <editor>Karen Desmond</editor>
+            </titleStmt>
+            <publicationStmt></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>US</country>
+                        <settlement>Chicago</settlement>
+                        <repository>Newberry Library</repository>
+                        <collection></collection>
+                        <idno>Ms. 54.1</idno>
+                    </msIdentifier>
+                    <head><!--optional: can be used to provide in a
+                        brief, unstructured way information on the manuscript’s contents --> </head>
+                    <msContents> <!-- an itemised list of the intellectual content of
+                        the manuscript, with transcriptions of rubrics, incipits,
+                        explicits etc, as well as primary bibliographic references. <msContents>, 
+                        for example, will normally consist of one
+                        or more <msItem> elements, each in turn containing specific
+                        elements for <rubric>, <incipit>, <explicit> and <colophon> --></msContents>
+                    <physDesc> <!-- groups information concerning all physical
+                        aspects of the manuscript, its material, size, format, script,
+                        decoration, binding, marginalia etc. -->
+                        14th manuscript (1391), quarto, 25 x 18 cm, 59 folios, from Italy (Pavia).  
+                            Beginning of codex appears to be missing, modern foliation.</physDesc>
+                    <history><!-- provides information on the history of the
+                        manuscript, its origin, provenance and acquisition by its
+                        holding institution -->
+                        <orig>Pavia, 1391</orig>
+                        <provenance>
+                            This codex was acquired by the Newberry Library in 1955, 
+                                before which time it resided in private hands in Vienna.  
+                                It is in fact the apparently lost manuscript that Coussemaker 
+                                called “Codex vindobonensis” (CS III, p. xxii) and used as a unique source for the 
+                                Ars perfecta (Psuedo-Vitry) and Anonymous VI (CS III, 398-403).  The copy 
+                                employed by Coussemaker for his edition was made for him in 1856 by Ferdinand Wolf, 
+                                an official of the former Kaiserliche Hofbibliothek in Vienna (see CS III, p. xv)
+                                – the copy however was incomplete, only the first two chapters of Anon. VI’s 
+                                treatise are missing in Ch, while the first seven are omitted in CS III.</provenance>
+                        <acquisition></acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc><!-- documents the relationship between an electronic text and the source or
+            sources from which it was derived. -->
+            <projectDesc>Digital edition of the Chicago source of the Ars nova treatise: Chicago
+                Diplomatic transcription
+            </projectDesc>
+            <editorialDecl>
+                <correction>Editorial corrections are given as a choice between sic (as in the
+                    source) and corr (the corrected version);</correction>
+                <normalization>Latin spellings, punctuation and capitalization normalized;
+                    "e" endings changed "ae"; "u" changed to "v"; "c" changed to "t"; "j" changed to
+                    "i"; abbreviations of numbers are expanded and marked by the expan element; all other
+                    abbreviations are expanded and not marked;spelling normalizations are given as a choice between sic (as in the
+                    source) and corr (the corrected version);
+                    </normalization> 
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    <front>
+            <witList>
+                <witness xml:id="Cn" >'Omni desideranti notitiam' (US-Cn 54.1)</witness>
+            </witList>
+    </front>
+    
+    <text>
+        <body>
+<pb n="57r" type="folio" facs="Cn57r.jpg" xml:id="Cn57r"/>
+            
+            <!-- Chapter 1 -->
+            <div type="chapter" n="1" xml:id="omnid1" corresp="translation.xml#trans1">
+                <p><lb ed="#Cn"/><hi>T</hi>ractatus iste super musicam composuit venerabilis ma
+                <lb ed="#Cn" type="nobreak"/>gister Philippus de Vitriaco.
+                <lb ed="#Cn"/><hi>O</hi>mni desideranti notitiam artis mensurabilis
+                <lb ed="#Cn"/>musicae tam novae quam veteris <choice><sic>optinere</sic> <corr>obtinere</corr></choice> certas
+                <lb ed="#Cn"/>hic rationes praesentes sub brevi compendio
+                <lb ed="#Cn"/>pro posse meo propono fideliter adsignare. Cum
+                <lb ed="#Cn"/>antiquitatem per Franconem notum est omnibus
+                <lb ed="#Cn"/>tradidisse novitatem, quae per Philippum
+                <lb ed="#Cn"/>in maiori parte subtiliter invenisse, et quia
+                <lb ed="#Cn"/>voces seu notulas proportionabiliter oportet
+                <lb ed="#Cn"/>omnes in hoc opere mensurare prout longae vel breves semibreves ac 
+                <lb ed="#Cn"/>minimae figurantur, ergo ad figurationem et valorem ipsarum breviter procedamus.</p>
+            </div>
+            
+            <!-- Chapter 2 -->
+            <div type="chapter" n="2" xml:id="omnid2" corresp="translation.xml#trans2">
+                <p><lb ed="#Cn"/><hi>L</hi>onga sub forma quadrata figurata habens tractum a parte dextra, descen
+                <lb ed="#Cn" type="nobreak" rend="hypen"/>dentem vel adscendentem, vel duos quorum <choice><sic>dextram</sic><corr>dexter</corr></choice> excedit in longitudine
+                <lb ed="#Cn"/>sinistrum. Et tunc illa nota dicitur plica longa et valet tria tempora in
+                <lb ed="#Cn"/>modo perfecto, duo autem in imperfecto.</p>
+            </div>
+            
+            <!-- Chapter 3 -->
+            <div type="chapter" n="3" xml:id="omnid3" corresp="translation.xml#trans3">
+                <p><lb ed="#Cn"/><hi>M</hi>odus imperfectus est ipsas breves vel tempora <choice><sic>vel</sic><corr>per</corr></choice> numerum binarium computare 
+                <lb ed="#Cn"/>dicitur imperfectus eo quod numerus binarius est imperfectus. Numerus vero ternarius est 
+                <lb ed="#Cn"/>perfectus assumptus a trinitate, scilicet, pater, filius, et spiritus sanctus ubi est summa perfectio.</p>
+            </div>
+            
+            <!-- Chapter 4 -->
+            <div type="chapter" n="4" xml:id="omnid4" corresp="translation.xml#trans3">
+                <p><lb ed="#Cn"/><hi>M</hi>odus perfectus cognoscitur per pausas, quando pausae inter longas sunt perfectae
+                <lb ed="#Cn"/>vel quando de longa usque ad aliam longam per numerum ternarium melius 
+                <lb ed="#Cn"/>quam per binarium tempora computantur ut hic patet inferius.
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_1.jpg" xml:id="Cn_ex_1"/>
+                </figure></p>
+            </div>
+            
+            
+            <!-- Chapter 5 -->
+            <div type="chapter" n="5" xml:id="omnid5" corresp="translation.xml#trans3">
+                <p><lb ed="#Cn"/><hi>I</hi>tem longa licet valeat tria tempora in modo perfecto, sicut dictum est tamen tribus 
+                <lb ed="#Cn"/>imperficitur, videlicet quando sola brevis sequitur, aut praecedit, vel quando plures quam 
+                <lb ed="#Cn"/>tres breves ipsam sequuntur similiter imperficitur ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_2.jpg" xml:id="Cn_ex_2"/>
+                </figure></p>
+            </div>
+            
+            <!-- Chapter 6 -->
+            <div type="chapter" n="6" xml:id="omnid6" corresp="translation.xml#trans3">
+                <p><lb ed="#Cn"/><hi>S</hi>i autem duae vel tres breves tantum sequuntur ipsam longam a
+<!-- [M58A] -->
+<pb n="57v" type="folio" facs="Cn57v.jpg" xml:id="Cn57v"/>
+                <lb ed="#Cn"/>nulla sola brevi praecedente, a qua posset imperfici, perfecta est longa ipsa,
+                <lb ed="#Cn"/>nisi punctus divisionis ponatur inter primam brevem et secundam, 
+                <lb ed="#Cn"/>vel inter primam et alias subsequentes.</p> 
+            </div>
+            
+            <!-- Chapter 7 -->
+            <div type="chapter" n="7" xml:id="omnid7" corresp="translation.xml#trans3">
+                <p><hi>C.</hi><note type="editorial">The scribe did not begin a new paragraph here, either by error or because of space constraints, and so inserts this letter C here to indicate the beginning of a new chapter.</note>
+                <hi>I</hi>tem longa ante longam in modo perfecto perfecta est. Et longa post quam punctus qui dicitur perfectus
+                <lb ed="#Cn"/>immediate ponitur similiter perfecta in modo perfecto<!-- should this be corr to imperfecto --> ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_3.jpg" xml:id="Cn_ex_3"/>
+                </figure></p>
+            </div>
+            
+            <!-- Chapter 8 -->
+            <div type="chapter" n="8" xml:id="omnid8" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>E</hi>st quaedam alia nota sub forma quadrata habens tractum a parte 
+                <lb ed="#Cn"/>dextra, vel duos quorum dexter et contra, sicut ipsa longa, sed in duplo
+                <lb ed="#Cn"/>est latior ipsa longa, et tunc ipsa nota dicitur duplex longa, et
+                <lb ed="#Cn"/>valet <choice><abbr>6</abbr><expan>sex</expan></choice>tempora in modo perfecto, et quatuor in imperfecto. Et imperficitur duobus modis
+                <lb ed="#Cn"/>tantum, videlicet, a sola brevi sequenti non praecedenti, sicut inferius hic 
+                <lb ed="#Cn"/>probabo, vel quando plusquam<choice><abbr>3</abbr><expan>tres</expan></choice> breves sequuntur ipsam <choice><sic>dupplicem</sic><corr>duplicem</corr></choice>, et tunc 
+                <lb ed="#Cn"/>non valet nisi quinque tempora, ut hic patet. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_4.jpg" xml:id="Cn_ex_4"/>
+                </figure>
+                </p>
+            </div>
+            
+            <!-- Chapter 9 -->
+            <div type="chapter" n="9" xml:id="omnid9" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>B</hi>reves sub forma quadrata figurantur carens omni tractu.
+                <lb ed="#Cn"/>Si vero habent tractum a parte sinistra, vel duos, quorum sinister 
+                <lb ed="#Cn"/>sit longior dextro tractu, tunc prima nota,plica brevis 
+                <lb ed="#Cn"/>appellatur, et valet tres semibreves in tempore perfecto.<hi>T</hi>empus semibrevium
+                <lb ed="#Cn"/>perfectum, est trium semibrevium assumptio pro qualibet brevi vel proferendo
+                <lb ed="#Cn"/>valorem ipsarum, vel ipsius perfectionis numerando, tempus imperfectum est, 
+<!-- [M58b] -->
+<pb n="58r" type="folio" facs="Cn58r.jpg" xml:id="Cn58r"/>
+                <lb ed="#Cn"/>quod valorem tantum semibrevium numeratur, variatur, et mensuratur, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_5.jpg" xml:id="Cn_ex_5"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 10 -->
+            <div type="chapter" n="10" xml:id="omnid10" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>I</hi>tem brevis imperficitur tribus modis, videlicet quando sola semibrevis 
+                <lb ed="#Cn"/>ipsam sequitur, aut praecedit, vel quando plures quam tres semibreves 
+                <lb ed="#Cn"/>ipsam similiter subsequuntur ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_6.jpg" xml:id="Cn_ex_6"/>
+                </figure></p>
+                
+                
+            </div>
+            
+            <!-- Chapter 11 -->
+            <div type="chapter" n="11" xml:id="omnid11" corresp="translation.xml#trans3"> 
+                
+                <p><lb ed="#Cn"/><hi>E</hi>t si duae vel <choice><abbr>3es</abbr><expan>tres</expan></choice>tantum sequuntur nulla semibrevi praecedente, sola
+                <lb ed="#Cn"/>praedicta dicitur talis brevis, nisi punctus divisionis ponatur, inter vel secundam 
+                <lb ed="#Cn"/>et primam semibrevem, vel inter primam et alias subsequentes.
+                <lb ed="#Cn"/>Item sicut longa ante longam perfecta est. Ita brevis ante brevem 
+                <lb ed="#Cn"/>dicitur perfecta, cum punctus immediate positus perficit ipsam brevem 
+                <lb ed="#Cn"/>tempore imperfecto, nisi per divisione modi forsitan assignetur, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_7.jpg" xml:id="Cn_ex_7"/>
+                </figure></p>
+                
+                   
+            </div>
+            
+            <!-- Chapter 12 -->
+            <div type="chapter" n="12" xml:id="omnid12" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>I</hi>tem brevis imperficitur <choice><sic>duppliciter</sic><corr>dupliciter</corr></choice>, videlicet a sola minima sequenti. 
+                <lb ed="#Cn"/>Et non a praecedenti, vel a pluribus quam <choice><abbr>3</abbr><expan>tres</expan></choice> ipsam brevem
+                <lb ed="#Cn"/>sequentibus, licet multi teneant quod brevis imperficiatur a parte
+                <lb ed="#Cn"/>praecedenti per minimam, et duplex longa imperficiatur a brevi
+                <lb ed="#Cn"/>similiter praecedenti. Dico quod falsum est. Nam brevis ipsa non 
+                <lb ed="#Cn"/>imperficitur a minima, quantum ad totum cum minima non subiciatur
+                <lb ed="#Cn"/>brevi, immo semibrevi. Ergo quantum ad partem quae est semibrevis,
+                <lb ed="#Cn"/>ex hoc arguo, quotienscumque brevis imperficitur, a minima non imper
+                <lb ed="#Cn" type="nobreak" />ficitur, quantum ad totum, sed quantum ad partem. Videlicet, ad semibrevem,
+                <lb ed="#Cn"/>et ita <del rend="strikethrough">ad</del> semibrevis quam semibrevem, et longa ante longam 
+                <lb ed="#Cn"/>nunquam possunt perfici a parte praecedenti propter partem subsequentem, 
+                <lb ed="#Cn"/>ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_8.jpg" xml:id="Cn_ex_8"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 13 -->
+            <div type="chapter" n="13" xml:id="omnid13" corresp="translation.xml#trans3">
+                
+               <p> <lb ed="#Cn"/><hi>I</hi>tem brevium quaedam recta et quaedam altera, nuncupatur, recta       
+<!-- [M59A] -->
+<pb n="58v" type="folio" facs="Cn58v.jpg" xml:id="Cn58v"/>
+                <lb ed="#Cn"/>valet unum. Altera vero duo.Unde quotienscumque duae breves inven
+                <lb ed="#Cn"/>iuntur inter duas longas, prima recta est, alteraque secunda, et vo
+                <lb ed="#Cn" type="no break"/>catur altera, quia <choice><sic>alteratur. Nam sua</sic><corr>alteratur natura sua</corr></choice>cum ipsa brevis naturaliter tantum unum 
+                <lb ed="#Cn"/>tempus valet et duo quotiens alteratur. Item quando duae breves reperiuntur inter 
+                <lb ed="#Cn"/>punctum divisionis et longam, velinter longam et punctum, 
+                <lb ed="#Cn"/>secunda similiter alteratur, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_9.jpg" xml:id="Cn_ex_9"/>
+                </figure>
+                </p>
+            </div>
+            
+            <!-- Chapter 14 -->
+            <div type="chapter" n="14" xml:id="omnid14" corresp="translation.xml#trans3">
+                
+               <p> <lb ed="#Cn"/><hi>S</hi>emibrevis ad modum corporis obliqui figuratur quae valet tres
+                <lb ed="#Cn"/>minimas in maiori prolatione, duas autem in minori prolatione.
+                <lb ed="#Cn"/>Multi ignorantes dicunt <supplied>quod</supplied> semibreves semper valere <choice><abbr>3</abbr><expan>tres</expan></choice> minimas. 
+                <lb ed="#Cn"/>Sed hoc est contra Franconem, qui dixit, mentione facta de longis et 
+                <lb ed="#Cn"/>semibrevibus et de similibus. Idem iudicium habeatur quod in longis
+                <lb ed="#Cn"/>et in brevibus invenitur perfectum et imperfectum, per distinctionem modi tempus.
+                <lb ed="#Cn"/>Ita dico <choice><sic>quod quod</sic><corr>quod</corr></choice>semibrevibus idem est invenire per distinctionem ma
+                <lb ed="#Cn" type="nobreak"/>ioris prolationis et minoris. maior prolatio est larga, vel lata
+                <lb ed="#Cn"/>mensura, dans unicuique semibrevi <choice><abbr>3</abbr><expan>tres</expan></choice>minimas vel valorem. 
+                <lb ed="#Cn"/>Minor prolatio est, brevis et modica mensura sub qua duae 
+                <lb ed="#Cn"/>minimae pro semibrevi, tantummodo possunt proferri, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_10.jpg" xml:id="Cn_ex_10"/>
+                </figure>     </p>
+                     
+            </div>
+            
+            <!-- Chapter 15 -->
+            <div type="chapter" n="15" xml:id="omnid15" corresp="translation.xml#trans3">
+                 
+                <p><lb ed="#Cn"/><choice><sic><hi>I</hi>nde</sic><corr>Item</corr></choice>semibrevis imperficitur <choice><abbr>3ibus</abbr><expan>tribus</expan></choice>modis sicut brevis et longa, videlicet quando sola
+                <lb ed="#Cn"/> minima ipsam sequitur aut praecedit, vel quando plures quam tres sequuntur
+                <lb ed="#Cn"/>minimae, sicut de longa et brevi superius est dictum, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_11.jpg" xml:id="Cn_ex_11"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 16 -->
+            <div type="chapter" n="16" xml:id="omnid16" corresp="translation.xml#trans3"> 
+                
+                <p><lb ed="#Cn"/><hi>S</hi>i vero duae minimae tantum, <choice><abbr>3es</abbr><expan>tres</expan></choice>vel ipsam sequuntur, nulla sola minima
+                <lb ed="#Cn"/>praecedente, perfecta est, nisi punctus divisionis  ponatur inter primam, et secundam, 
+                <lb ed="#Cn"/>vel inter primas et alias, si fuerint subsequentes, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_12.jpg" xml:id="Cn_ex_12"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 17 -->
+            <div type="chapter" n="17" xml:id="omnid17" corresp="translation.xml#trans3">
+                
+                 <p><lb ed="#Cn"/><hi>I</hi>tem semibrevis alteratur contra sicut brevis scilicet quando duae semibreves inveniuntur 
+        
+<!-- [M59B] -->
+<pb n="59r" type="folio" facs="Cn59r.jpg" xml:id="Cn59r"/>
+                <lb ed="#Cn"/>inter duas breves, vel inter punctum divisionis et brevem, vel inter <choice><sic>punctum
+                <lb ed="#Cn"/>et brevem,</sic><corr>brevem et punctum,</corr></choice>ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_13.jpg" xml:id="Cn_ex_13"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 18 -->
+            <div type="chapter" n="18" xml:id="omnid18" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>M</hi>inima, tot modis alteratur, unde ratio alterationis est ista, quia ubicumque 
+                <lb ed="#Cn"/>naturale aliquid deest, artificialiter debet reparari, aut remanebit imperfectum,
+                <lb ed="#Cn"/>sed quando duae breves solae inveniuntur, vel duae semibreves, et idem de minimis
+                <lb ed="#Cn"/>deficit. Ubi trinitas, ibi perfectio, ergo necesse est primam reparare, videlicet, per alterationem 
+                <lb ed="#Cn"/>unius illarum, scilicet secundae. Si dicatur una illarum brevium potest esse longa imperfecta, 
+                <lb ed="#Cn"/>dico quod non. Quia propter longam sequentem, necesse esset ipsam esse perfectam 
+                <lb ed="#Cn"/>per regulam supradictam, longa autem et contra. Unde brevis alteratur ad modum 
+                <lb ed="#Cn"/>perficiendum, semibrevis ad tempus, et minima aperfectione, quod modus, 
+                <lb ed="#Cn"/>tempus, vel prolatio, hic similiter sunt perfecta, ut hic.
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_14.jpg" xml:id="Cn_ex_14"/>
+                </figure>
+                </p>
+            </div>
+            
+            <!-- Chapter 19 -->
+            <div type="chapter" n="19" xml:id="omnid19" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>E</hi>t nota <supplied>est</supplied> quod duplex est punctus de plurimum supradixi, est punctus perfectionis,
+                <lb ed="#Cn"/>qui semper perficit longam in utroque modo, et brevem in utroque tempore, et semi
+                <lb ed="#Cn"/>brevem in utraque prolatione. Est autem aliquis punctus divisionis, et ille
+                <lb ed="#Cn"/>punctus imperficit longam, dividendo breves, et imperficit brevem dividendo
+                <lb ed="#Cn"/>semibreves, et imperficit semibrevem dividendo <supplied>minimas</supplied><note type="editorial">no written in margin</note>   </p>      
+                
+            </div>
+            
+            <!-- Chapter 20 -->
+            <div type="chapter" n="20" xml:id="omnid20" corresp="translation.xml#trans3">
+                
+               <p> <hi>C.</hi><note type="editorial">There is no line break here, but the letter C indicates a new paragraph</note> Unde videndum
+                <lb ed="#Cn"/>est quomodo cognoscitur punctus ille divisionis a puncto perfectionis, cum unus
+                <lb ed="#Cn"/>habeat imperficere figuras, et alius perficere, sicut dixi. Ubicumque punctus
+                <lb ed="#Cn"/>ponitur post longam, perfectionis esse dicitur; quando vero post minimam, ponitur pro divisione
+                <lb ed="#Cn"/>tunc adsignatur. Et nota<supplied>est</supplied> quod triplex est divisio, et triplex est perfectio,
+                <lb ed="#Cn"/>videlicet, modi, temporis, et prolationis. </p>
+                
+            </div>
+            
+            <!-- Chapter 21 -->
+            <div type="chapter" n="21" xml:id="omnid21" corresp="translation.xml#trans3">
+                
+                <p><hi>C.</hi><note type="editorial">There is no line break here, but the letter C indicates a new paragraph</note> Item si punctus ponatur
+                <lb ed="#Cn"/>inter duas breves, debet dividere modum, nisi forte breves essent de tempore im
+                <lb ed="#Cn"/>perfecto, post quas aliqua semibrevis sequeretur sola, quae in cincopam
+                <lb ed="#Cn"/>reducitur ad praedictam brevem puncto perfectionis punctuatam.</p>
+                  
+            </div>
+            
+            <!-- Chapter 22 -->
+            <div type="chapter" n="22" xml:id="omnid22" corresp="translation.xml#trans3">
+                
+                <p><hi>C.</hi><note type="editorial">There is no line break here, but the letter C indicates a new paragraph</note> Si autem
+                <lb ed="#Cn"/>punctus ponatur immediate post brevem semibrevi sola sequente
+                <lb ed="#Cn"/>pro perfectione temporis, dicitur semper esse. Item si punctus ponitur post semi
+                <lb ed="#Cn" type="nobreak"/>brevem, dicitur pro perfectione prolationis, videlicet semibrevis. Atque <!-- Unde? --> si post
+                <lb ed="#Cn"/>semibrevem illam punctuatam sequeretur tunc semibrevis, pro divisione
+                <lb ed="#Cn"/>temporis assignatur, nisi forte semibreves <del>semibreves</del> ille sint de minori
+                <lb ed="#Cn"/>prolatione, post quas sequeretur aliqua sola minima quae reducitur 
+                <lb ed="#Cn"/>ad semibrevem praedictam, puncto perfectionis punctuatam per cincopam
+                <lb ed="#Cn"/>et sic apparet qualiter cognoscitur unus punctus ab alio, ut hic. 
+<!-- [M60A] -->
+<pb n="59v" type="folio" facs="Cn59v.jpg" xml:id="Cn59v"/>
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_15.jpg" xml:id="Cn_ex_15"/>
+                </figure>
+                       </p>
+            </div>
+            
+            <!-- Chapter 23 -->
+            <div type="chapter" n="23" xml:id="omnid23" corresp="translation.xml#trans3">
+                
+               <p> <lb ed="#Cn"/><hi>C</hi>um duplex sit modus, tempus, et prolatio, sicut dixi. Videndum 
+                <lb ed="#Cn"/>est de signis per quae distinguitur quadrangulus cum tribus tractulis 
+                <lb ed="#Cn"/>ponitur pro modo perfecto, quadrangulus vero cum duobus tractulis
+                <lb ed="#Cn"/>pro modo imperfecto ponitur ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_16.jpg" xml:id="Cn_ex_16"/>
+                </figure></p>
+                   
+            </div>
+            
+            <!-- Chapter 24 -->
+            <div type="chapter" n="24" xml:id="omnid24" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>C</hi>irculus ponitur pro tempore perfecto. Semicirculus pro tempore
+                <lb ed="#Cn"/>imperfecto ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_17.jpg" xml:id="Cn_ex_17"/>
+                </figure></p>
+                        
+            </div>
+            
+            <!-- Chapter 25 -->
+            <div type="chapter" n="25" xml:id="omnid25" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>S</hi>icut est dare distinctionem per signa, inter modum perfectum, et 
+                <lb ed="#Cn"/>imperfectum. Ita est dare aliqua distinctio inter maiorem prolationem
+                <lb ed="#Cn"/>et minorem, si contingat illam variare bene dico quod in signo tem
+                <lb ed="#Cn" type="nobreak"/>poris illius cuius fuerit superius assignato debent poni tres puncti
+                <lb ed="#Cn"/>pro maiori prolatione, duo autem pro minori, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_18.jpg" xml:id="Cn_ex_18"/>
+                </figure></p>
+            </div>
+            
+            <!-- Chapter 26 -->
+            <div type="chapter" n="26" xml:id="omnid26" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>I</hi>tem modus, tempus, et prolatio, per rubeas distinguuntur figuras.      
+                <lb ed="#Cn"/>Unde quandocumque rubea ponitur longa, ponitur ad dextram. Ita quod si
+                <lb ed="#Cn"/>nigrae fuerint de modo perfecto, rubeae <choice><sic>erunt erunt</sic><corr>erunt</corr></choice> de modo 
+                <lb ed="#Cn"/>imperfecto et e contrario ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_19.jpg" xml:id="Cn_ex_19"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 27 -->
+            <div type="chapter" n="27" xml:id="omnid27" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>B</hi>reves ponuntur rubeae ad differentiam temporis. Ita quod si nigrae breves
+                <lb ed="#Cn"/>fuerint de tempore perfecto, rubeae erunt de imperfecto, et e contrario. Nisi
+                <lb ed="#Cn"/>cum aliqua forsitan ordinetur, sicut in moteti tenore qui dicitur 
+                <lb ed="#Cn"/>in arboris, vel in tenore de In nova fert animus, ut hic. 
+                <lb ed="#Cn"/>
+                <figure>
+                    <graphic url="images/Cn_ex_20.jpg" xml:id="Cn_ex_20"/>
+                </figure></p>
+                
+            </div>
+
+<!-- [M60B] -->
+<pb n="60r" type="folio" facs="Cn60r.jpg" xml:id="Cn60r"/>
+            
+            <!-- Chapter 28 -->
+            <div type="chapter" n="28" xml:id="omnid28" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>S</hi>emibreves rubeae ponuntur ad differentiam prolationis ut si nigrae fue
+                <lb ed="#Cn" type="nobreak"/>rint de maiori prolatione rubeae erunt de minori, et e contrario.Nisi semi
+                <lb ed="#Cn" type="nobreak"/>breves forsitan cum aliqua brevi <choice><sic>ordinetur</sic><corr>ordinentur</corr></choice>, quia tunc ponentur ad diffe
+                <lb ed="#Cn" type="nobreak"/>rentiam <choice><sic>temporis</sic><corr>prolationis</corr></choice>, sicut in tenore de In arboris invenitur ibi. 
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_21.jpg" xml:id="Cn_ex_21"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 29 -->
+            <div type="chapter" n="29" xml:id="omnid29" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>S</hi>incopa est divisio cuiuscumque figurae ad partes separatas quae ad invicem redu
+                <lb ed="#Cn" type="nobreak"/>cuntur perfectiones numerando, et tripliciter videlicet in modo, tempore et prolatione. 
+                <lb ed="#Cn"/>Si fiat in modo, aut fiat in modo perfecto aut imperfecto. Si in modo perfecto, 
+                <lb ed="#Cn"/>tunc est reperire <choice><abbr>3es</abbr><expan>tres</expan></choice>breves separatas. Vel valorem pro longa, vel 
+                <lb ed="#Cn"/>unam brevem cum una pausa duorum temporum quae reducatur ad hanc
+                <lb ed="#Cn"/><choice><sic>brevevem</sic><corr>brevem</corr></choice>. Si autem fiat in modo imperfecto, tunc est reperire 
+                <lb ed="#Cn"/>breves tantum separatas quae perfectiones modi numerando reducantur ad invicem, ut hic. 
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_22.jpg" xml:id="Cn_ex_22"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 30 -->
+            <div type="chapter" n="30" xml:id="omnid30" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>S</hi>i autem fiat in tempore fiat aut in tempore perfecto aut imperfecto. Si fiat in 
+                <lb ed="#Cn"/>tempore perfecto, tunc brevis dividitur in<choice><abbr>3</abbr><expan>tres</expan></choice>semibreves separatas tantum, vel va
+                <lb ed="#Cn" type="nobreak"/>lorem quae similiter ad invicem reducuntur, vel ipsa puncto perfectionis punc
+                <lb ed="#Cn" type="nobreak"/>tuatur cuius tertia pars ad aliquam semibrevem solam ad <choice><sic>ipsa</sic><corr>ipsam</corr></choice> reducitur separata 
+                <lb ed="#Cn"/>ut hic. 
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_23.jpg" xml:id="Cn_ex_23"/>
+                </figure></p>
+                   
+            </div>
+            
+            <!-- Chapter 31 -->
+            <div type="chapter" n="31" xml:id="omnid31" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>S</hi>imiliter in prolatione, fit duplex aut in maiori prolatione aut
+                <lb ed="#Cn"/>in minori. Si autem in maiori, tunc est invenire <choice><abbr>3</abbr><expan>tres</expan></choice>minimas per semi
+                <lb ed="#Cn" type="nobreak"/>brevem separatas quae numerando perfectiones prolationis ad invicem reducuntur.
+                <lb ed="#Cn"/>Si autem fiat in minori prolatione, tunc est invenire duas minimas tantum
+                <lb ed="#Cn"/>pro semibreve separatas <choice><sic>qui</sic><corr>quae</corr></choice>numerando perfectiones ipsius prolationis ad in
+                <lb ed="#Cn" type="nobreak"/>vicem reducuntur ut hic. 
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_24.jpg" xml:id="Cn_ex_24"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 32 -->
+            <div type="chapter" n="32" xml:id="omnid32" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>L</hi>igaturarum alia ascendens, alia descendens. Et quia ars loquitur de primis, 
+                <lb ed="#Cn"/>mediis et ultimis earum, idcirco de primis et ultimis ligaturae descen
+                <lb ed="#Cn" type="nobreak"/>dentis, primo videamus sicut dicit ars prima descendens sine tractu lon
+                <lb ed="#Cn" type="nobreak"/>ga est, sed si habuerit tractum a parte sinistra descendentem, dicitur esse brevis.
+                <lb ed="#Cn"/>Similiter omnis ultima ligaturae descendentis longa est, nisi fuerit
+                <lb ed="#Cn"/>in aliquo corpore figurata, ut hic inferius patebit.
+<!-- [M61A] -->
+<pb n="60v" type="folio" facs="Cn60v.jpg" xml:id="Cn60v"/>
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_25.jpg" xml:id="Cn_ex_25"/>
+                </figure>
+                    </p>
+            </div>
+            
+            <!-- Chapter 33 -->
+            <div type="chapter" n="33" xml:id="omnid33" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>N</hi>unc de primis et ultimis ligaturis videamus sicut ars quod prima 
+                <lb ed="#Cn"/>ascendens, semper est brevis, nisi a parte dextra tractum habuerit descenden
+                <lb ed="#Cn" type="nobreak"/>tem. Similiter omnis ultima ascendens brevis, nisi ponatur super penultimam
+                <lb ed="#Cn"/>vel a parte dextra tractum ascendentem similiter descendentem, ut hic. 
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_26.jpg" xml:id="Cn_ex_26"/>
+                </figure></p>
+                        
+            </div>
+            
+            <!-- Chapter 34 -->
+            <div type="chapter" n="34" xml:id="omnid34" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>I</hi>tem omnis tractus ascendens in prima positione ligatura descendentis vel 
+                <lb ed="#Cn"/>ascendentis facit primas esse semibreves. Et omnes mediae sunt breves 
+                <lb ed="#Cn"/>cuiuscumque sint ligaturae. Ut hic. 
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_27.jpg" xml:id="Cn_ex_27"/>
+                </figure></p>
+                
+            </div>
+            
+            <!-- Chapter 35 -->
+            <div type="chapter" n="35" xml:id="omnid35" corresp="translation.xml#trans3">
+                
+               <p> <lb ed="#Cn"/><hi>P</hi>ausa est vocum omissio, seu <choice><sic>asperitate</sic><corr>aspiratio</corr></choice> mensurata per tot corporibus quot 
+                <lb ed="#Cn"/>fuerit figurata. Unde pausa valet tot tempora quot continet spatia.
+                <lb ed="#Cn"/>Nam si tenet unum, valet unum. Si tenet duo, valet duo. Si tenet 
+                <lb ed="#Cn"/>tria, valet tria. Si tenet quatuor, immensurabilis est. Sed illa pausa quae 
+                <lb ed="#Cn"/>tenet dimidium spatium descendendo valet unam semibrevem de prolatione 
+                <lb ed="#Cn"/>qua fuerit. Quid ergo fiet de pausa minimae cum minor pausa 
+                <lb ed="#Cn"/>non possit inveniri quam dimidii spatii. Dico breviter et hoc tenetur 
+                <lb ed="#Cn"/>ab omnibus expertis in scientia, quod pausa semibrevis debet descendere inferius a 
+                <lb ed="#Cn"/>linea. Pausa vero minimae debet ascendere superius a linea, tenens dimidium 
+                <lb ed="#Cn"/>spatium, ut hic. 
+                <lb ed="#Cn"/> 
+                <figure>
+                    <graphic url="images/Cn_ex_28.jpg" xml:id="Cn_ex_28"/>
+                </figure></p>
+               
+            </div>
+            
+            <!-- Explicit -->
+            <div type="explicit" xml:id="omnid36" corresp="translation.xml#trans3">
+                
+                <p><lb ed="#Cn"/><hi>E</hi>xplicit ars perfecta in musica magistri Philippoti de Vitriaco.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
