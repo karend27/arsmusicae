@@ -117,7 +117,7 @@
                 <lb ed="#Cn"/>quam per binarium tempora computantur ut hic patet inferius.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_1.jpg" xml:id="Cn_ex_1"/>
+                    <graphic url="./images/Cn_ex_1.jpg" xml:id="Cn_ex_1"/>
                 </figure></p>
             </div>
 
@@ -129,7 +129,7 @@
                 <lb ed="#Cn"/>tres breves ipsam sequuntur similiter imperficitur ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_2.jpg" xml:id="Cn_ex_2"/>
+                    <graphic url="./images/Cn_ex_2.jpg" xml:id="Cn_ex_2"/>
                 </figure></p>
             </div>
 
@@ -150,7 +150,7 @@
                 <lb ed="#Cn"/>immediate ponitur similiter perfecta in modo perfecto<!-- should this be corr to imperfecto --> ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_3.jpg" xml:id="Cn_ex_3"/>
+                    <graphic url="./images/Cn_ex_3.jpg" xml:id="Cn_ex_3"/>
                 </figure></p>
             </div>
 
@@ -166,7 +166,7 @@
                 <lb ed="#Cn"/>non valet nisi quinque tempora, ut hic patet.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_4.jpg" xml:id="Cn_ex_4"/>
+                    <graphic url="./images/Cn_ex_4.jpg" xml:id="Cn_ex_4"/>
                 </figure>
                 </p>
             </div>
@@ -185,7 +185,7 @@
                 <lb ed="#Cn"/>quod valorem tantum semibrevium numeratur, variatur, et mensuratur, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_5.jpg" xml:id="Cn_ex_5"/>
+                    <graphic url="./images/Cn_ex_5.jpg" xml:id="Cn_ex_5"/>
                 </figure></p>
 
             </div>
@@ -198,7 +198,7 @@
                 <lb ed="#Cn"/>ipsam similiter subsequuntur ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_6.jpg" xml:id="Cn_ex_6"/>
+                    <graphic url="./images/Cn_ex_6.jpg" xml:id="Cn_ex_6"/>
                 </figure></p>
 
 
@@ -215,7 +215,7 @@
                 <lb ed="#Cn"/>tempore imperfecto, nisi per divisione modi forsitan assignetur, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_7.jpg" xml:id="Cn_ex_7"/>
+                    <graphic url="./images/Cn_ex_7.jpg" xml:id="Cn_ex_7"/>
                 </figure></p>
 
 
@@ -238,7 +238,7 @@
                 <lb ed="#Cn"/>ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_8.jpg" xml:id="Cn_ex_8"/>
+                    <graphic url="./images/Cn_ex_8.jpg" xml:id="Cn_ex_8"/>
                 </figure></p>
 
             </div>
@@ -257,7 +257,7 @@
                 <lb ed="#Cn"/>secunda similiter alteratur, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_9.jpg" xml:id="Cn_ex_9"/>
+                    <graphic url="./images/Cn_ex_9.jpg" xml:id="Cn_ex_9"/>
                 </figure>
                 </p>
             </div>
@@ -278,7 +278,7 @@
                 <lb ed="#Cn"/>minimae pro semibrevi, tantummodo possunt proferri, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_10.jpg" xml:id="Cn_ex_10"/>
+                    <graphic url="./images/Cn_ex_10.jpg" xml:id="Cn_ex_10"/>
                 </figure>     </p>
 
             </div>
@@ -291,7 +291,7 @@
                 <lb ed="#Cn"/>minimae, sicut de longa et brevi superius est dictum, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_11.jpg" xml:id="Cn_ex_11"/>
+                    <graphic url="./images/Cn_ex_11.jpg" xml:id="Cn_ex_11"/>
                 </figure></p>
 
             </div>
@@ -304,7 +304,7 @@
                 <lb ed="#Cn"/>vel inter primas et alias, si fuerint subsequentes, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_12.jpg" xml:id="Cn_ex_12"/>
+                    <graphic url="./images/Cn_ex_12.jpg" xml:id="Cn_ex_12"/>
                 </figure></p>
 
             </div>
@@ -320,7 +320,7 @@
                 <lb ed="#Cn"/>et brevem,</sic><corr>brevem et punctum,</corr></choice>ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_13.jpg" xml:id="Cn_ex_13"/>
+                    <graphic url="./images/Cn_ex_13.jpg" xml:id="Cn_ex_13"/>
                 </figure></p>
 
             </div>
@@ -339,7 +339,7 @@
                 <lb ed="#Cn"/>tempus, vel prolatio, hic similiter sunt perfecta, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_14.jpg" xml:id="Cn_ex_14"/>
+                    <graphic url="./images/Cn_ex_14.jpg" xml:id="Cn_ex_14"/>
                 </figure>
                 </p>
             </div>
@@ -393,7 +393,7 @@
 <pb n="59v" type="folio" facs="Cn59v.jpg" xml:id="Cn59v"/>
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_15.jpg" xml:id="Cn_ex_15"/>
+                    <graphic url="./images/Cn_ex_15.jpg" xml:id="Cn_ex_15"/>
                 </figure>
                        </p>
             </div>
@@ -407,7 +407,7 @@
                 <lb ed="#Cn"/>pro modo imperfecto ponitur ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_16.jpg" xml:id="Cn_ex_16"/>
+                    <graphic url="./images/Cn_ex_16.jpg" xml:id="Cn_ex_16"/>
                 </figure></p>
 
             </div>
@@ -419,7 +419,7 @@
                 <lb ed="#Cn"/>imperfecto ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_17.jpg" xml:id="Cn_ex_17"/>
+                    <graphic url="./images/Cn_ex_17.jpg" xml:id="Cn_ex_17"/>
                 </figure></p>
 
             </div>
@@ -434,7 +434,7 @@
                 <lb ed="#Cn"/>pro maiori prolatione, duo autem pro minori, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_18.jpg" xml:id="Cn_ex_18"/>
+                    <graphic url="./images/Cn_ex_18.jpg" xml:id="Cn_ex_18"/>
                 </figure></p>
             </div>
 
@@ -447,7 +447,7 @@
                 <lb ed="#Cn"/>imperfecto et e contrario ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_19.jpg" xml:id="Cn_ex_19"/>
+                    <graphic url="./images/Cn_ex_19.jpg" xml:id="Cn_ex_19"/>
                 </figure></p>
 
             </div>
@@ -461,7 +461,7 @@
                 <lb ed="#Cn"/>in arboris, vel in tenore de In nova fert animus, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_20.jpg" xml:id="Cn_ex_20"/>
+                    <graphic url="./images/Cn_ex_20.jpg" xml:id="Cn_ex_20"/>
                 </figure></p>
 
             </div>
@@ -478,7 +478,7 @@
                 <lb ed="#Cn" type="nobreak"/>rentiam <choice><sic>temporis</sic><corr>prolationis</corr></choice>, sicut in tenore de In arboris invenitur ibi.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_21.jpg" xml:id="Cn_ex_21"/>
+                    <graphic url="./images/Cn_ex_21.jpg" xml:id="Cn_ex_21"/>
                 </figure></p>
 
             </div>
@@ -495,7 +495,7 @@
                 <lb ed="#Cn"/>breves tantum separatas quae perfectiones modi numerando reducantur ad invicem, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_22.jpg" xml:id="Cn_ex_22"/>
+                    <graphic url="./images/Cn_ex_22.jpg" xml:id="Cn_ex_22"/>
                 </figure></p>
 
             </div>
@@ -510,7 +510,7 @@
                 <lb ed="#Cn"/>ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_23.jpg" xml:id="Cn_ex_23"/>
+                    <graphic url="./images/Cn_ex_23.jpg" xml:id="Cn_ex_23"/>
                 </figure></p>
 
             </div>
@@ -526,7 +526,7 @@
                 <lb ed="#Cn" type="nobreak"/>vicem reducuntur ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_24.jpg" xml:id="Cn_ex_24"/>
+                    <graphic url="./images/Cn_ex_24.jpg" xml:id="Cn_ex_24"/>
                 </figure></p>
 
             </div>
@@ -544,7 +544,7 @@
 <pb n="60v" type="folio" facs="Cn60v.jpg" xml:id="Cn60v"/>
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_25.jpg" xml:id="Cn_ex_25"/>
+                    <graphic url="./images/Cn_ex_25.jpg" xml:id="Cn_ex_25"/>
                 </figure>
                     </p>
             </div>
@@ -558,7 +558,7 @@
                 <lb ed="#Cn"/>vel a parte dextra tractum ascendentem similiter descendentem, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_26.jpg" xml:id="Cn_ex_26"/>
+                    <graphic url="./images/Cn_ex_26.jpg" xml:id="Cn_ex_26"/>
                 </figure></p>
 
             </div>
@@ -571,7 +571,7 @@
                 <lb ed="#Cn"/>cuiuscumque sint ligaturae. Ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_27.jpg" xml:id="Cn_ex_27"/>
+                    <graphic url="./images/Cn_ex_27.jpg" xml:id="Cn_ex_27"/>
                 </figure></p>
 
             </div>
@@ -591,7 +591,7 @@
                 <lb ed="#Cn"/>spatium, ut hic.
                 <lb ed="#Cn"/>
                 <figure>
-                    <graphic url="images/Cn_ex_28.jpg" xml:id="Cn_ex_28"/>
+                    <graphic url="./images/Cn_ex_28.jpg" xml:id="Cn_ex_28"/>
                 </figure></p>
 
             </div>
