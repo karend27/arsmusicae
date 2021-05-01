@@ -22,7 +22,7 @@
                         brief, unstructured way information on the manuscript’s contents --> </head>
                     <msContents> <!-- an itemised list of the intellectual content of
                         the manuscript, with transcriptions of rubrics, incipits,
-                        explicits etc, as well as primary bibliographic references. <msContents>, 
+                        explicits etc, as well as primary bibliographic references. <msContents>,
                         for example, will normally consist of one
                         or more <msItem> elements, each in turn containing specific
                         elements for <rubric>, <incipit>, <explicit> and <colophon> --></msContents>
@@ -41,7 +41,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc><!-- documents the relationship between an electronic text and the source or
             sources from which it was derived. -->
             <projectDesc>Digital edition of the Chicago source of the Ars nova treatise: Siena
@@ -55,12 +55,12 @@
                     "i"; abbreviations of numbers are expanded and marked by the expan element; all other
                     abbreviations are expanded and not marked;spelling normalizations are given as a choice between sic (as in the
                     source) and corr (the corrected version);
-                </normalization> 
+                </normalization>
             </editorialDecl>
             <!-- <variantEncoding method="parallel-segmentation" location="internal"/> -->
         </encodingDesc>
     </teiHeader>
-    
+
     <front>
         <div>
            <witList>
@@ -68,7 +68,7 @@
             </witList>
         </div>
     </front>
-    
+
     <text>
         <body>
 <!-- [f. 129r] -->
@@ -77,82 +77,80 @@
                <p><lb ed="#Su"/><hi>S</hi>ub brevissimo compendio Philippo de Vitriaco in musica incipit.
                 <lb ed="#Su"/><hi>O</hi>mni desideranti notitiam artis musicae mensurabilis tam novae
                 <lb ed="#Su"/>quam veteris obtinere certas regulas hic praesentes sub brevi compendio
-                <lb ed="#Su"/>proposse non postpono fideliter assignare. Et quia voces seu 
+                <lb ed="#Su"/>proposse non postpono fideliter assignare. Et quia voces seu
                 <lb ed="#Su"/>notulas proportionabiliter oportet in hoc opere mensurare prout longae
-                <lb ed="#Su"/>vel breves et semibreves ac minimae figurantur idcirco 
+                <lb ed="#Su"/>vel breves et semibreves ac minimae figurantur idcirco
                    <lb ed="#Su"/>ad figurationem et valorem ipsarum breviter procedamus.</p>
             </div>
-            
+
             <div type="chapter" n="2" xml:id="SuC2" corresp="">
                <p> <lb ed="#Su"/><hi>L</hi>onga ergo sub forma quadrata figurata est habens tractum a parte de
                 <lb ed="#Su"/>xtra ascendentem vel descendentem, vel duos quorum dextra ex
-                <lb ed="#Su"/>cedit sinistrum, et tunc talis nota dicitur plica longa. Et valet 
+                <lb ed="#Su"/>cedit sinistrum, et tunc talis nota dicitur plica longa. Et valet
                 <lb ed="#Su"/>tria tempora in modo perfecto, duo autem in imperfecto. Modus im
-                <lb ed="#Su"/>perfectus est, breves vel tempora per numerum binarium computare. Et 
-                <lb ed="#Su"/>dicitur imperfectus eo quod numerus binarius est imperfectus. Numerus vero ternarius 
-                <lb ed="#Su"/>est perfectus assumptus a trinitate scilicet a patre et filio et spiritu sancto, ubi 
+                <lb ed="#Su"/>perfectus est, breves vel tempora per numerum binarium computare. Et
+                <lb ed="#Su"/>dicitur imperfectus eo quod numerus binarius est imperfectus. Numerus vero ternarius
+                <lb ed="#Su"/>est perfectus assumptus a trinitate scilicet a patre et filio et spiritu sancto, ubi
                 <lb ed="#Su"/>est summa perfectio. Modus perfectus cognoscitur per pausas quando pau
-                <lb ed="#Su"/>sae in longas sunt perfectae vel quando de longa usque ad aliam longam 
-                <lb ed="#Su"/>per numerum ternarium melius quam binarium tempora computantur ut 
-                <lb ed="#Su"/>hic patet. 
+                <lb ed="#Su"/>sae in longas sunt perfectae vel quando de longa usque ad aliam longam
+                <lb ed="#Su"/>per numerum ternarium melius quam binarium tempora computantur ut
+                <lb ed="#Su"/>hic patet.
                 <lb ed="#Su"/>
                 <figure>
-                    <graphic url="images/Su_ex_1.jpg" xml:id="Su_ex_1"/>
+                    <graphic url="arsmusicae/images/Su_ex_1.jpg" xml:id="Su_ex_1"/>
                 </figure></p>
-            </div> 
-            
+            </div>
+
             <div type="chapter" n="3" xml:id="SuC3" corresp="">
-                <p><lb ed="#Su"/><hi>I</hi>tem nota, modus tempus et prolatio per rubeas 
+                <p><lb ed="#Su"/><hi>I</hi>tem nota, modus tempus et prolatio per rubeas
                 <lb ed="#Su"/>distinguuntur figuras. Unde quandocumque longa invenitur rubea ponitur
                 </p>
                     <!-- [f. 129v] -->
 <pb n="129v" type="folio" facs="Su129v.jpg" xml:id="Su129v"/>
-                <p><lb ed="#Su"/>ad differentiam modi. Itaque si nigre fuerint de modo perfecto, 
-                <lb ed="#Su"/>rubee sunt de modo imperfecto et econverso ut hic patet. 
-                <lb ed="#Su"/> 
+                <p><lb ed="#Su"/>ad differentiam modi. Itaque si nigre fuerint de modo perfecto,
+                <lb ed="#Su"/>rubee sunt de modo imperfecto et econverso ut hic patet.
+                <lb ed="#Su"/>
                 <figure>
-                    <graphic url="images/Su_ex_2.jpg" xml:id="Su_ex_2"/>
+                    <graphic url="arsmusicae/images/Su_ex_2.jpg" xml:id="Su_ex_2"/>
                 </figure></p>
                 <note type="editorial">marginal annotation in left margin</note>
-            </div> 
-            
+            </div>
+
             <div type="chapter" n="4" xml:id="SuC4" corresp="">
-                <p><hi>B</hi>reves ponuntur rubeae ad differentiam temporis. Itaque si nigre breves 
-                <lb ed="#Su"/>fuerint de tempore perfecto, rubee sunt de imperfecto et econverso. 
-                <lb ed="#Su"/>Nisi cum aliqua longa forsitan ordinetur, sicut in mottetti tenore 
-                <lb ed="#Su"/>qui dicitur, In arboris, vel in tenore de, In nova fert animus ut 
-                <lb ed="#Su"/>hic.  
+                <p><hi>B</hi>reves ponuntur rubeae ad differentiam temporis. Itaque si nigre breves
+                <lb ed="#Su"/>fuerint de tempore perfecto, rubee sunt de imperfecto et econverso.
+                <lb ed="#Su"/>Nisi cum aliqua longa forsitan ordinetur, sicut in mottetti tenore
+                <lb ed="#Su"/>qui dicitur, In arboris, vel in tenore de, In nova fert animus ut
+                <lb ed="#Su"/>hic.
                 <lb ed="#Su"/>
                 <figure>
-                    <graphic url="images/Su_ex_3.jpg" xml:id="Su_ex_3"/>
+                    <graphic url="arsmusicae/images/Su_ex_3.jpg" xml:id="Su_ex_3"/>
                 </figure></p>
             </div>
-            
+
             <div type="chapter" n="5" xml:id="SuC5" corresp="">
                 <p><lb ed="#Su"/><hi>S</hi>emibreves rubeae ponuntur ad differentiam prolationis, ut si ni
-                <lb ed="#Su"/>gre semibreves fuerint de maiori prolatione, rubee sunt de 
+                <lb ed="#Su"/>gre semibreves fuerint de maiori prolatione, rubee sunt de
                 <lb ed="#Su"/>minori et econverso, nisi semibreves cum aliqua brevi forsi
-                <lb ed="#Su"/>tan ordinetur quia tunc ponuntur ad differentiam prolationis ut 
-                <lb ed="#Su"/>hic patet. 
+                <lb ed="#Su"/>tan ordinetur quia tunc ponuntur ad differentiam prolationis ut
+                <lb ed="#Su"/>hic patet.
                 <lb ed="#Su"/>
                 <figure>
-                    <graphic url="images/Su_ex_4.jpg" xml:id="Su_ex_4"/>
+                    <graphic url="arsmusicae/images/Su_ex_4.jpg" xml:id="Su_ex_4"/>
                 </figure></p>
             </div>
-            
+
             <div type="chapter" n="6" xml:id="SuC6" corresp="">
                <p><lb ed="#Su"/><hi>H</hi>os versus disce
                 <lb ed="#Su"/>qui cantum discere cupis: Ante namque longa tria tempora lon
-                <lb ed="#Su"/>ga meretur. Si brevis addatur duo tempora longa tenetur. 
+                <lb ed="#Su"/>ga meretur. Si brevis addatur duo tempora longa tenetur.
                 <lb ed="#Su"/>Inter perfectas si brevis bina locetur, Temporis unius sit prima, se
                 <lb ed="#Su"/>cunda dupletur.</p> </div>
-             
+
             <div type="explicit" xml:id="SuExplicit" corresp="">
                 <p><hi>E</hi>xplicit Philippus de Vitriaco.</p>
             </div>
-            
+
         </body>
     </text>
 </TEI>
-
-

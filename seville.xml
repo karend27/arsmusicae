@@ -22,7 +22,7 @@
                         brief, unstructured way information on the manuscript’s contents --> </head>
                     <msContents> <!-- an itemised list of the intellectual content of
                         the manuscript, with transcriptions of rubrics, incipits,
-                        explicits etc, as well as primary bibliographic references. <msContents>, 
+                        explicits etc, as well as primary bibliographic references. <msContents>,
                         for example, will normally consist of one
                         or more <msItem> elements, each in turn containing specific
                         elements for <rubric>, <incipit>, <explicit> and <colophon> --></msContents>
@@ -41,7 +41,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc><!-- documents the relationship between an electronic text and the source or
             sources from which it was derived. -->
             <projectDesc>Digital edition of the Chicago source of the Ars nova treatise: Seville
@@ -55,12 +55,12 @@
                     "i"; abbreviations of numbers are expanded and marked by the expan element; all other
                     abbreviations are expanded and not marked;spelling normalizations are given as a choice between sic (as in the
                     source) and corr (the corrected version);
-                </normalization> 
+                </normalization>
             </editorialDecl>
             <!-- <variantEncoding method="parallel-segmentation" location="internal"/> -->
         </encodingDesc>
     </teiHeader>
-    
+
     <front>
         <div>
             <witList>
@@ -68,276 +68,274 @@
             </witList>
         </div>
     </front>
-    
+
     <text>
         <body>
-            
-    <pb n="63r" type="folio" facs="Sc63r.jpg" xml:id="Sc63r"/>        
+
+    <pb n="63r" type="folio" facs="Sc63r.jpg" xml:id="Sc63r"/>
             <div type="chapter" n="1" xml:id="ScC1" corresp="#omnid1">
-               <p><lb ed="#Sc"/><hi>O</hi>mni desideranti notitiam artis mensurabilis tam novae quam veteris 
-               <lb ed="#Sc"/>obtinere certas regulas huic praesentes sub brevi compendio proposse 
-               <lb ed="#Sc"/>meo propono fideliter assignare; cujus antiquitatem per Franconem 
+               <p><lb ed="#Sc"/><hi>O</hi>mni desideranti notitiam artis mensurabilis tam novae quam veteris
+               <lb ed="#Sc"/>obtinere certas regulas huic praesentes sub brevi compendio proposse
+               <lb ed="#Sc"/>meo propono fideliter assignare; cujus antiquitatem per Franconem
                <lb ed="#Sc"/>notum omnibus tradidisse. Noviterque per Philippum in maiori parte subti
-               <lb ed="#Sc" type="nobreak"/>liter invenisse; et quia voces seu notulas proportionabiliter omnes in hoc 
+               <lb ed="#Sc" type="nobreak"/>liter invenisse; et quia voces seu notulas proportionabiliter omnes in hoc
                <lb ed="#Sc"/>opere mensurare, prout longae vel breves, semibreves, ac mini
                <lb ed="#Sc"/>me figurantur. Igitur ad valorem et figurationem ipsarum breviter procedamus.</p></div>
-            
-            <div type="chapter" n="2" xml:id="ScC2" corresp="#omnid2, omnid3, omnid4"><p><lb ed="#Sc"/><hi>L</hi>onga igitur est sub forma quadra habens tractum a parte dextra ascendentem 
-                <lb ed="#Sc"/>vel descendentem, vel duos, quorum dexter excedit sinistrum. Et 
-                <lb ed="#Sc"/>talis vocatur plica longa. Et valet tria tempora in modo perfecto, duo 
-                <lb ed="#Sc"/>autem in imperfecto. Modus perfectus cognoscitur per pausas, scilicet, quando pausae 
-                <lb ed="#Sc"/>inter longas sunt perfectae, vel quando de longa ad longam numerus ternarius 
-                <lb ed="#Sc"/>computatur. Modus autem imperfectus est ipsas breves vel tempora per 
-                <lb ed="#Sc"/>numerum binarium computare. Et dicitur imperfectus eo quod numerus binarius 
-                <lb ed="#Sc"/>est imperfectus. Numeros vero ternarius perfectus est assumptus a Trinitate etcetera. 
+
+            <div type="chapter" n="2" xml:id="ScC2" corresp="#omnid2, omnid3, omnid4"><p><lb ed="#Sc"/><hi>L</hi>onga igitur est sub forma quadra habens tractum a parte dextra ascendentem
+                <lb ed="#Sc"/>vel descendentem, vel duos, quorum dexter excedit sinistrum. Et
+                <lb ed="#Sc"/>talis vocatur plica longa. Et valet tria tempora in modo perfecto, duo
+                <lb ed="#Sc"/>autem in imperfecto. Modus perfectus cognoscitur per pausas, scilicet, quando pausae
+                <lb ed="#Sc"/>inter longas sunt perfectae, vel quando de longa ad longam numerus ternarius
+                <lb ed="#Sc"/>computatur. Modus autem imperfectus est ipsas breves vel tempora per
+                <lb ed="#Sc"/>numerum binarium computare. Et dicitur imperfectus eo quod numerus binarius
+                <lb ed="#Sc"/>est imperfectus. Numeros vero ternarius perfectus est assumptus a Trinitate etcetera.
                 <lb ed="#Sc"/>Exemplum omnium istorum:
                <figure>
-                    <graphic url="images/Sc_ex_1.jpg" xml:id="Sc_ex_1"/>
+                    <graphic url="arsmusicae/images/Sc_ex_1.jpg" xml:id="Sc_ex_1"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="3" xml:id="ScC3" corresp="#omnid5"><lb ed="#Sc"/><p><hi>I</hi>tem longa licet valeat tria 
-                <lb ed="#Sc"/>tempora in modo perfecto sicut 
-                <lb ed="#Sc"/>dictum est, tamen tribus modis imperficitur. Videlicet quando sola brevis sequitur, aut 
-                <lb ed="#Sc"/>praecedit. Vel quando plures quam tres breves ipsam secuntur similiter 
+
+            <div type="chapter" n="3" xml:id="ScC3" corresp="#omnid5"><lb ed="#Sc"/><p><hi>I</hi>tem longa licet valeat tria
+                <lb ed="#Sc"/>tempora in modo perfecto sicut
+                <lb ed="#Sc"/>dictum est, tamen tribus modis imperficitur. Videlicet quando sola brevis sequitur, aut
+                <lb ed="#Sc"/>praecedit. Vel quando plures quam tres breves ipsam secuntur similiter
                 <lb ed="#Sc"/>imperficitur. Ut hic patet.
                 <figure>
-                    <graphic url="images/Sc_ex_2.jpg" xml:id="Sc_ex_2"/>
+                    <graphic url="arsmusicae/images/Sc_ex_2.jpg" xml:id="Sc_ex_2"/>
                 </figure></p>
             </div>
-            
+
             <div type="chapter" n="4" xml:id="ScC4" corresp="#omnid6, omnid7"><p><lb ed="#Sc"/><hi>S</hi>i autem duae, vel tres bre
-                <lb ed="#Sc" type="nobreak"/>ves tamen secuntur ipsam longam 
-                <lb ed="#Sc"/>nulla sola brevi praecedente, 
-                <lb ed="#Sc"/>ipsa longa perfecta est; nisi punctus divisionis ponatur inter primam 
-                <lb ed="#Sc"/>brevem et secundam; vel inter primam et alias subsequentes. Similiter, longa 
-                <lb ed="#Sc"/>ante longam perfecta est. Et si longae addetur punctus perfectionis, perfecta est 
+                <lb ed="#Sc" type="nobreak"/>ves tamen secuntur ipsam longam
+                <lb ed="#Sc"/>nulla sola brevi praecedente,
+                <lb ed="#Sc"/>ipsa longa perfecta est; nisi punctus divisionis ponatur inter primam
+                <lb ed="#Sc"/>brevem et secundam; vel inter primam et alias subsequentes. Similiter, longa
+                <lb ed="#Sc"/>ante longam perfecta est. Et si longae addetur punctus perfectionis, perfecta est
                 <lb ed="#Sc"/>et in modo imperfecto. Ut hic patet:
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_3.jpg" xml:id="Sc_ex_3"/>
+                    <graphic url="arsmusicae/images/Sc_ex_3.jpg" xml:id="Sc_ex_3"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="5" xml:id="ScC5" corresp="#omnid8"><p><lb ed="#Sc"/><hi>E</hi>st autem quaedam alia nota; quae duplex longa vocatur. Et in duplo latiorem 
-                <lb ed="#Sc"/>ipsa longa. Talis autem valet .VI. tempora in modo perfecto, et quatuor in 
+
+            <div type="chapter" n="5" xml:id="ScC5" corresp="#omnid8"><p><lb ed="#Sc"/><hi>E</hi>st autem quaedam alia nota; quae duplex longa vocatur. Et in duplo latiorem
+                <lb ed="#Sc"/>ipsa longa. Talis autem valet .VI. tempora in modo perfecto, et quatuor in
                 <lb ed="#Sc"/>modo imperfecto; et duobus modis tamen imperficitur. Videlicet, a sola brevi sequen
-                <lb ed="#Sc" type="nobreak"/>te, vel praecedente. sicut inferius patebit, vel quando plures quam tres secuntur 
+                <lb ed="#Sc" type="nobreak"/>te, vel praecedente. sicut inferius patebit, vel quando plures quam tres secuntur
                 <lb ed="#Sc"/>ipsam. Et tunc non valet nisi quinque tempora. Ut hic patet.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_4.jpg" xml:id="Sc_ex_4"/>
+                    <graphic url="arsmusicae/images/Sc_ex_4.jpg" xml:id="Sc_ex_4"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="6" xml:id="ScC6" corresp="#omnid9"><p><lb ed="#Sc"/><hi>B</hi>revis sive forma quadrata figuratur, carens omni tractu. Si vero tractum 
-                <lb ed="#Sc"/>habuerit ante sinistram, vel duos quorum sinister longior sit dextro, tunc 
-                <lb ed="#Sc"/>illa, plica brevis appellatur; et valet tres semibreves in tempore 
-                <lb ed="#Sc"/>perfecto, duas autem imperfecto. Tempus perfectum est trium semibrevium assumpto 
+
+            <div type="chapter" n="6" xml:id="ScC6" corresp="#omnid9"><p><lb ed="#Sc"/><hi>B</hi>revis sive forma quadrata figuratur, carens omni tractu. Si vero tractum
+                <lb ed="#Sc"/>habuerit ante sinistram, vel duos quorum sinister longior sit dextro, tunc
+                <lb ed="#Sc"/>illa, plica brevis appellatur; et valet tres semibreves in tempore
+                <lb ed="#Sc"/>perfecto, duas autem imperfecto. Tempus perfectum est trium semibrevium assumpto
                 <lb ed="#Sc"/>pro qualibet brevi. Tempus imperfectum est, quando dividitur per duas semi
                 <lb ed="#Sc" type="nobreak"/>breves, variando, numerando, et mensurando, ut hic patet inferius. Volue cartam.
 
 <!-- [f.63v] -->
 <pb n="63v" type="folio" facs="Sc63v.jpg" xml:id="Sc63v"/>
-                
+
                 <figure>
-                    <graphic url="images/Sc_ex_5.jpg" xml:id="Sc_ex_5"/>
+                    <graphic url="arsmusicae/images/Sc_ex_5.jpg" xml:id="Sc_ex_5"/>
                 </figure></p>
             </div>
             <div type="chapter" n="7" xml:id="ScC7" corresp="#omnid10"><p><lb ed="#Sc"/><hi>I</hi>tem brevis tribus modis imper
                 <lb ed="#Sc" type="nobreak"/>ficitur, videlicet, quando sola semi
-                brevis ipsam sequitur, aut 
+                brevis ipsam sequitur, aut
                 praecedit; vel quando sunt plures quam tres ipsam sequentes, ut hic patet.
                 <figure>
-                    <graphic url="images/Sc_ex_6.jpg" xml:id="Sc_ex_6"/>
+                    <graphic url="arsmusicae/images/Sc_ex_6.jpg" xml:id="Sc_ex_6"/>
                 </figure></p></div>
-            
-            <div type="chapter" n="8" xml:id="ScC8" corresp="#omnid11"><p><lb ed="#Sc"/><hi>E</hi>t si duae vel tres semibreves 
+
+            <div type="chapter" n="8" xml:id="ScC8" corresp="#omnid11"><p><lb ed="#Sc"/><hi>E</hi>t si duae vel tres semibreves
                 <lb ed="#Sc"/>secuntur tamen nulla so
                 <lb ed="#Sc" type="nobreak"/>la semibrevi praecedente,
                 <lb ed="#Sc"/>perfecta est ipsa brevis, nisi punctus divisionis ponatur inter primam et secundam
                 <lb ed="#Sc"/>semibrevem, vel alias subsequentes.</p></div>
-            
-            <div type="chapter" n="9" xml:id="ScC9" corresp="#omnid11"><p><lb ed="#Sc"/><hi>I</hi>tem sicut longa ante longam est perfecta semper, sic brevis ante brevem 
-                <lb ed="#Sc"/>est perfecta semper. Et ex hoc sequitur quod similis ante similem non unquam 
-                <lb ed="#Sc"/>imperficitur. Etiam punctus immediate postpositus perficit ipsam brevem 
-                <lb ed="#Sc"/>in tempore tamen imperfecto, nisi per divisionem modi forsitan poneretur, et 
+
+            <div type="chapter" n="9" xml:id="ScC9" corresp="#omnid11"><p><lb ed="#Sc"/><hi>I</hi>tem sicut longa ante longam est perfecta semper, sic brevis ante brevem
+                <lb ed="#Sc"/>est perfecta semper. Et ex hoc sequitur quod similis ante similem non unquam
+                <lb ed="#Sc"/>imperficitur. Etiam punctus immediate postpositus perficit ipsam brevem
+                <lb ed="#Sc"/>in tempore tamen imperfecto, nisi per divisionem modi forsitan poneretur, et
                 <lb ed="#Sc"/>tunc in medio.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_7.jpg" xml:id="Sc_ex_7"/>
+                    <graphic url="arsmusicae/images/Sc_ex_7.jpg" xml:id="Sc_ex_7"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="10" xml:id="ScC10" corresp="#omnid12"><p><lb ed="#Sc"/><hi>I</hi>tem brevis imperficitur dupliciter, videlicet, quando a sola minima sequente, vel etiam 
-                <lb ed="#Sc"/>a pluribus quam tres ipsam sequentes. Sed multi tenent quod imperficitur 
+
+            <div type="chapter" n="10" xml:id="ScC10" corresp="#omnid12"><p><lb ed="#Sc"/><hi>I</hi>tem brevis imperficitur dupliciter, videlicet, quando a sola minima sequente, vel etiam
+                <lb ed="#Sc"/>a pluribus quam tres ipsam sequentes. Sed multi tenent quod imperficitur
                 <lb ed="#Sc"/>per minimam a parte ante. Dico quod falsum est; si sequitur alia bre
-                <lb ed="#Sc" type="nobreak"/>vis quam maxime. Sed forte dicam quod nullo modo; et ratio quia minima non 
-                <lb ed="#Sc"/>imperficit totam brevem igitur partem; cum partes sint duae; igitur aliquam istarum 
+                <lb ed="#Sc" type="nobreak"/>vis quam maxime. Sed forte dicam quod nullo modo; et ratio quia minima non
+                <lb ed="#Sc"/>imperficit totam brevem igitur partem; cum partes sint duae; igitur aliquam istarum
                 <lb ed="#Sc"/>non primam; quia prima similatur secunde; igitur secunda; et sic ex parte post.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_8.jpg" xml:id="Sc_ex_8"/>
+                    <graphic url="arsmusicae/images/Sc_ex_8.jpg" xml:id="Sc_ex_8"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="11" xml:id="ScC11" corresp="#omnid13"><p><lb ed="#Sc"/><hi>I</hi>tem brevium alia recta, alia altera. Recta, unius temporis; altera 
-                <lb ed="#Sc"/>duorum est. Unde quotienscumque duae breves inveniuntur inter duas 
-                <lb ed="#Sc"/>longas, prima est recta, secunda est altera; et vocatur sic; quia alteratur 
-                <lb ed="#Sc"/>natura sua. Similiter quia quando duae breves inter punctum divisionis et longam 
+
+            <div type="chapter" n="11" xml:id="ScC11" corresp="#omnid13"><p><lb ed="#Sc"/><hi>I</hi>tem brevium alia recta, alia altera. Recta, unius temporis; altera
+                <lb ed="#Sc"/>duorum est. Unde quotienscumque duae breves inveniuntur inter duas
+                <lb ed="#Sc"/>longas, prima est recta, secunda est altera; et vocatur sic; quia alteratur
+                <lb ed="#Sc"/>natura sua. Similiter quia quando duae breves inter punctum divisionis et longam
                 <lb ed="#Sc"/> vel e converso prima est altera. Ut hic patet.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_9.jpg" xml:id="Sc_ex_9"/>
+                    <graphic url="arsmusicae/images/Sc_ex_9.jpg" xml:id="Sc_ex_9"/>
                 </figure></p></div>
-            
-            <div type="chapter" n="12" xml:id="ScC12" corresp="#omnid14"><p><lb ed="#Sc"/><hi>E</hi>st autem semibrevis ad modum corporis obliqui, et valet tres 
-                <lb ed="#Sc"/>minimas in prolatione maiori, duas in minori, et sic distinguitur 
+
+            <div type="chapter" n="12" xml:id="ScC12" corresp="#omnid14"><p><lb ed="#Sc"/><hi>E</hi>st autem semibrevis ad modum corporis obliqui, et valet tres
+                <lb ed="#Sc"/>minimas in prolatione maiori, duas in minori, et sic distinguitur
                 <lb ed="#Sc"/>maior et minor prolatio. Ut hic profertur.
                 <figure>
-                    <graphic url="images/Sc_ex_10.jpg" xml:id="Sc_ex_10"/>
+                    <graphic url="arsmusicae/images/Sc_ex_10.jpg" xml:id="Sc_ex_10"/>
                 </figure></p></div>
-            
-            <div type="chapter" n="13" xml:id="ScC13" corresp="#omnid15"><p><lb ed="#Sc"/><hi>I</hi>tem semibrevis imperficitur 
-                <lb ed="#Sc"/>tribus modis sicut brevis et 
-                <lb ed="#Sc"/>longa. Primo quando sola minima 
-                <lb ed="#Sc"/>eam sequitur, vel precedit, vel quando plures quam tres ipsam 
+
+            <div type="chapter" n="13" xml:id="ScC13" corresp="#omnid15"><p><lb ed="#Sc"/><hi>I</hi>tem semibrevis imperficitur
+                <lb ed="#Sc"/>tribus modis sicut brevis et
+                <lb ed="#Sc"/>longa. Primo quando sola minima
+                <lb ed="#Sc"/>eam sequitur, vel precedit, vel quando plures quam tres ipsam
                 <lb ed="#Sc"/>secuntur, sicut dictum est de longis sive de longa.
                 <figure>
-                    <graphic url="images/Sc_ex_11.jpg" xml:id="Sc_ex_11"/>
+                    <graphic url="arsmusicae/images/Sc_ex_11.jpg" xml:id="Sc_ex_11"/>
                 </figure>
                 <del>
                     <figure>
-                        <graphic url="images/Sc_ex_12.jpg" xml:id="Sc_ex_12"/>
+                        <graphic url="arsmusicae/images/Sc_ex_12.jpg" xml:id="Sc_ex_12"/>
                     </figure>
                 </del>
                 <lb ed="#Sc"/>hoc exemplum vacat</p></div>
-            
+
 <!-- [f.64r] -->
 <pb n="64r" type="folio" facs="Sc64r.jpg" xml:id="Sc64r"/>
-            
-            <div type="chapter" n="14" xml:id="ScC14" corresp="#omnid16"><p><lb ed="#Sc"/><hi>S</hi>i vero duae minimae tamen ipsam secuntur nulla sola minima praecedente 
-                <lb ed="#Sc"/> perfecta est, nisi punctus divisionis sequatur inter primam minimam et secundam 
+
+            <div type="chapter" n="14" xml:id="ScC14" corresp="#omnid16"><p><lb ed="#Sc"/><hi>S</hi>i vero duae minimae tamen ipsam secuntur nulla sola minima praecedente
+                <lb ed="#Sc"/> perfecta est, nisi punctus divisionis sequatur inter primam minimam et secundam
                 <lb ed="#Sc"/>vel alias si fuerint subsequentes. Ut hic.
                 <figure>
-                    <graphic url="images/Sc_ex_13.jpg" xml:id="Sc_ex_13"/>
+                    <graphic url="arsmusicae/images/Sc_ex_13.jpg" xml:id="Sc_ex_13"/>
                 </figure></p></div>
-            
-            <div type="chapter" n="15" xml:id="ScC15" corresp="#omnid17"><p><lb ed="#Sc"/><hi>I</hi>tem semibrevis tripliciter alteratur 
+
+            <div type="chapter" n="15" xml:id="ScC15" corresp="#omnid17"><p><lb ed="#Sc"/><hi>I</hi>tem semibrevis tripliciter alteratur
                 <lb ed="#Sc"/>sicut brevis, videlicet quando duae semibre
-                <lb ed="#Sc" type="nobreak"/>ves inveniuntur inter duas semibreves; vel inter punctum divisionis 
+                <lb ed="#Sc" type="nobreak"/>ves inveniuntur inter duas semibreves; vel inter punctum divisionis
                 <lb ed="#Sc"/>et brevem, vel e converso. Ut hic.
                 <figure>
-                    <graphic url="images/Sc_ex_14.jpg" xml:id="Sc_ex_14"/>
+                    <graphic url="arsmusicae/images/Sc_ex_14.jpg" xml:id="Sc_ex_14"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="16" xml:id="ScC16" corresp="#omnid18"><p><lb ed="#Sc"/><hi>M</hi>inima etiam duobus modis 
-                <lb ed="#Sc"/>alteratur. Primo modo ut dictum est 
-                <lb ed="#Sc"/>de semibrevibus et brevibus, scilicet, si duae minores inter duas maiores 
-                <lb ed="#Sc"/>etcetera. Sic igitur duabus minimis positis inter duas semibreves, secunda 
-                <lb ed="#Sc"/>est altera, nisi ad eas reducatur <supplied>deest</supplied>. Secundo modo si quinque 
-                <lb ed="#Sc"/>ponantur minimae pro uno videlicet tempore ultima est altera. Et ratio 
-                <lb ed="#Sc"/>hujus est, quia ubicumque aliquid artificialiter deest, artificialiter debet reparari. 
-                <lb ed="#Sc"/>Sic est hic. Tertio modo minima alteratur si duae ponantur inter 
+
+            <div type="chapter" n="16" xml:id="ScC16" corresp="#omnid18"><p><lb ed="#Sc"/><hi>M</hi>inima etiam duobus modis
+                <lb ed="#Sc"/>alteratur. Primo modo ut dictum est
+                <lb ed="#Sc"/>de semibrevibus et brevibus, scilicet, si duae minores inter duas maiores
+                <lb ed="#Sc"/>etcetera. Sic igitur duabus minimis positis inter duas semibreves, secunda
+                <lb ed="#Sc"/>est altera, nisi ad eas reducatur <supplied>deest</supplied>. Secundo modo si quinque
+                <lb ed="#Sc"/>ponantur minimae pro uno videlicet tempore ultima est altera. Et ratio
+                <lb ed="#Sc"/>hujus est, quia ubicumque aliquid artificialiter deest, artificialiter debet reparari.
+                <lb ed="#Sc"/>Sic est hic. Tertio modo minima alteratur si duae ponantur inter
                 <lb ed="#Sc"/>punctum divisionis et maiorem. Ut patet per exemplum.
                 <figure>
-                    <graphic url="images/Sc_ex_15.jpg" xml:id="Sc_ex_15"/>
+                    <graphic url="arsmusicae/images/Sc_ex_15.jpg" xml:id="Sc_ex_15"/>
                 </figure></p></div>
-            
-            <div type="chapter" n="17" xml:id="ScC17" corresp="#omnid19"><p><lb ed="#Sc"/><hi>E</hi>t est sciendum quod duplex est 
-                <lb ed="#Sc"/>punctus, divisionis, scilicet, et perfectionis. Divisionis 
-                <lb ed="#Sc"/>dividendo brevem, a longa 
+
+            <div type="chapter" n="17" xml:id="ScC17" corresp="#omnid19"><p><lb ed="#Sc"/><hi>E</hi>t est sciendum quod duplex est
+                <lb ed="#Sc"/>punctus, divisionis, scilicet, et perfectionis. Divisionis
+                <lb ed="#Sc"/>dividendo brevem, a longa
                 <lb ed="#Sc"/>in modo perfecto. Semibrevem a <del>minima</del> brevi in tempore perfecto, mi
-                <lb ed="#Sc" type="nobreak"/>nimam a semibrevi in maiori prolatione. Adhuc dividendo 
-                <lb ed="#Sc"/>minimas propter alterationem. Punctus vero perfectionis est qui perficit 
+                <lb ed="#Sc" type="nobreak"/>nimam a semibrevi in maiori prolatione. Adhuc dividendo
+                <lb ed="#Sc"/>minimas propter alterationem. Punctus vero perfectionis est qui perficit
                 <lb ed="#Sc"/>longam modo imperfecto. Perficit brevem tempore imperfecto. Perficit semi
-                <lb ed="#Sc"/>brevem minori prolatione. Punctus enim divisionis de quo iam dictum est 
-                <lb ed="#Sc"/>potius dicitur imperfectionis, quam perfectionis; quia imperficit longam dividendo 
+                <lb ed="#Sc"/>brevem minori prolatione. Punctus enim divisionis de quo iam dictum est
+                <lb ed="#Sc"/>potius dicitur imperfectionis, quam perfectionis; quia imperficit longam dividendo
                 <lb ed="#Sc"/>brevem, et hoc in modo perfecto; imperficit brevem dividendo semibre
                 <lb ed="#Sc" type="nobreak"/>vem, et hoc in tempore perfecto; imperficit semibrevem dividendo mi
-                <lb ed="#Sc" type="nobreak"/>nimam, et hoc in maiori prolatione. Est etiam punctus divisionis, qui 
+                <lb ed="#Sc" type="nobreak"/>nimam, et hoc in maiori prolatione. Est etiam punctus divisionis, qui
                 <lb ed="#Sc"/>habet dividere tempora, et hoc secundum ergo ssities:
-                <lb ed="#Sc"/> 
+                <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_16.jpg" xml:id="Sc_ex_16"/>
+                    <graphic url="arsmusicae/images/Sc_ex_16.jpg" xml:id="Sc_ex_16"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="18" xml:id="ScC18" corresp="#omnid23, omnid24, omnid25"><p><lb ed="#Sc"/><hi>C</hi>um duplex sit modus, tempus et prolatio. Videndum est de signis per quae 
-                <lb ed="#Sc"/>distinguuntur. Quadrangulus cum tribus tactulis, ponitur pro modo 
-                <lb ed="#Sc"/>perfecto. Sed si ponatur cum duobus, ponitur pro modo imperfecto. Circulus 
-                <lb ed="#Sc"/>vero pro tempore dicas, sed pro perfecto. Et semicirculus pro tempore imperfecto 
-                <lb ed="#Sc"/>ponitur. Nam pro maiori prolatione ponere debemus tria puncta; 
+
+            <div type="chapter" n="18" xml:id="ScC18" corresp="#omnid23, omnid24, omnid25"><p><lb ed="#Sc"/><hi>C</hi>um duplex sit modus, tempus et prolatio. Videndum est de signis per quae
+                <lb ed="#Sc"/>distinguuntur. Quadrangulus cum tribus tactulis, ponitur pro modo
+                <lb ed="#Sc"/>perfecto. Sed si ponatur cum duobus, ponitur pro modo imperfecto. Circulus
+                <lb ed="#Sc"/>vero pro tempore dicas, sed pro perfecto. Et semicirculus pro tempore imperfecto
+                <lb ed="#Sc"/>ponitur. Nam pro maiori prolatione ponere debemus tria puncta;
                 <lb ed="#Sc"/>pro minori vero duo. Ut patet hic de omnibus.
-                <lb ed="#Sc"/> 
+                <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_17.jpg" xml:id="Sc_ex_16"/>
+                    <graphic url="arsmusicae/images/Sc_ex_17.jpg" xml:id="Sc_ex_16"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="19" xml:id="ScC19" corresp="#omnid26, omnid27"><p><lb ed="#Sc"/><hi>S</hi>ciendum circa coloratas notas, quod rubeae vel nigrae ponuntur 
+
+            <div type="chapter" n="19" xml:id="ScC19" corresp="#omnid26, omnid27"><p><lb ed="#Sc"/><hi>S</hi>ciendum circa coloratas notas, quod rubeae vel nigrae ponuntur
                 <lb ed="#Sc"/>ad doctrinam modi temporis et prolationis. Ita quod si nigrae longae fu
-                <lb ed="#Sc" type="nobreak"/>erint de modo perfecto. Rubeae de modo imperfecto, et e converso. Si nigrae 
+                <lb ed="#Sc" type="nobreak"/>erint de modo perfecto. Rubeae de modo imperfecto, et e converso. Si nigrae
                 <lb ed="#Sc"/>breves ponuntur pro tempore perfecto, et rubeae pro imperfecto, vel e converso.
             </p></div>
-            
+
 <!-- [f.64v] -->
 <pb n="64v" type="folio" facs="Sc64v.jpg" xml:id="Sc64v"/>
-            
-            <div type="chapter" n="20" xml:id="ScC20" corresp="#omnid28"><p><lb ed="#Sc"/><hi>S</hi>i vero semibreves nigrae pro maiori prolatione ponuntur, et rubeae 
-                <lb ed="#Sc"/>pro minori vel e converso. Sed advertendum de omnibus hijs, hoc totum habet verum 
-                <lb ed="#Sc"/>nisi forte ad invicem ordinetur, scilicet, brevis cum longa, semibrevis cum 
-                <lb ed="#Sc"/>brevi. Et de omnibus veritas patet in tenore de In arboris. Innova 
+
+            <div type="chapter" n="20" xml:id="ScC20" corresp="#omnid28"><p><lb ed="#Sc"/><hi>S</hi>i vero semibreves nigrae pro maiori prolatione ponuntur, et rubeae
+                <lb ed="#Sc"/>pro minori vel e converso. Sed advertendum de omnibus hijs, hoc totum habet verum
+                <lb ed="#Sc"/>nisi forte ad invicem ordinetur, scilicet, brevis cum longa, semibrevis cum
+                <lb ed="#Sc"/>brevi. Et de omnibus veritas patet in tenore de In arboris. Innova
                 <lb ed="#Sc"/>fer animus.
-                <lb ed="#Sc"/> 
+                <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_18.jpg" xml:id="Sc_ex_18"/>
+                    <graphic url="arsmusicae/images/Sc_ex_18.jpg" xml:id="Sc_ex_18"/>
                 </figure></p>
             </div>
-            
+
             <div type="chapter" n="21" xml:id="ScC21" corresp="#omnid29, omnid30, omnid31">
-                <p><lb ed="#Sc"/><hi>S</hi>incopa est partim seperatarum modi, temporis et prolationis reducentium 
+                <p><lb ed="#Sc"/><hi>S</hi>incopa est partim seperatarum modi, temporis et prolationis reducentium
                 <lb ed="#Sc"/>ad earum totum, secundum qualitatem et propriam ipsarum formam:
-                <lb ed="#Sc"/> 
+                <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_19.jpg" xml:id="Sc_ex_19"/>
+                    <graphic url="arsmusicae/images/Sc_ex_19.jpg" xml:id="Sc_ex_19"/>
                 </figure>
             </p></div>
-            
-            <div type="chapter" n="22" xml:id="ScC22" corresp="#omnid32, omnid33, omnid34"><p><lb ed="#Sc"/><hi>L</hi>igaturarum autem alia ascendens, alia descendens. Et de hijs omnibus 
-                <lb ed="#Sc"/>tam ascendendo, quam descendendo, videndum est. Sed de primis et ultimis 
-                <lb ed="#Sc"/>est sciendum, quod prima ligatura descendens sine tractu longa dicitur esse 
-                <lb ed="#Sc"/>sed si habuerit tractum a parte sinistra descendentem brevis est. 
-                <lb ed="#Sc"/>Praeterea omnnis quadra in fine ligature descendendo etiam est 
-                <lb ed="#Sc"/>longa. Sed dico in ascendendo quod tam prima quando est brevis; nisi tractum 
-                <lb ed="#Sc"/>habuerit a parte dextera descendentem et e converso. Sed si habuerit fuerit 
+
+            <div type="chapter" n="22" xml:id="ScC22" corresp="#omnid32, omnid33, omnid34"><p><lb ed="#Sc"/><hi>L</hi>igaturarum autem alia ascendens, alia descendens. Et de hijs omnibus
+                <lb ed="#Sc"/>tam ascendendo, quam descendendo, videndum est. Sed de primis et ultimis
+                <lb ed="#Sc"/>est sciendum, quod prima ligatura descendens sine tractu longa dicitur esse
+                <lb ed="#Sc"/>sed si habuerit tractum a parte sinistra descendentem brevis est.
+                <lb ed="#Sc"/>Praeterea omnnis quadra in fine ligature descendendo etiam est
+                <lb ed="#Sc"/>longa. Sed dico in ascendendo quod tam prima quando est brevis; nisi tractum
+                <lb ed="#Sc"/>habuerit a parte dextera descendentem et e converso. Sed si habuerit fuerit
                 <lb ed="#Sc"/>ascendens vel descendens, et prima habuerit tractum sinistrum ascen
-                <lb ed="#Sc" type="nobreak"/>dentem, semper primae duae sunt semibreves. Reliquae sequentes 
+                <lb ed="#Sc" type="nobreak"/>dentem, semper primae duae sunt semibreves. Reliquae sequentes
                 <lb ed="#Sc"/>breves sunt. Ut hic apparet.
-                <lb ed="#Sc"/> 
+                <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_20.jpg" xml:id="Sc_ex_20"/>
+                    <graphic url="arsmusicae/images/Sc_ex_20.jpg" xml:id="Sc_ex_20"/>
                 </figure></p>
             </div>
-            
-            <div type="chapter" n="23" xml:id="ScC23" corresp="#omnid35"><p><lb ed="#Sc"/><hi>P</hi>ausa est vocum emmissio, seu aspiratio mensurata pro tot 
+
+            <div type="chapter" n="23" xml:id="ScC23" corresp="#omnid35"><p><lb ed="#Sc"/><hi>P</hi>ausa est vocum emmissio, seu aspiratio mensurata pro tot
                 <lb ed="#Sc"/>temporibus quot continet spatia. Sed ultra tria non est abire. Et licet talis, pau
-                <lb ed="#Sc" type="nobreak"/>sa vocari possit, tamen est doctrina; quia illa ultra tria est privatio temporis. 
-                <lb ed="#Sc"/>Sed alia unius partis precise. Est enim et alia pausa quae continet 
-                <lb ed="#Sc"/>medium spatium, et talis est semibrevis et minimae. Sed haec 
-                <lb ed="#Sc"/>est doctrina, quia quae ponitur sub linea est semibrevis, quae ponitur 
+                <lb ed="#Sc" type="nobreak"/>sa vocari possit, tamen est doctrina; quia illa ultra tria est privatio temporis.
+                <lb ed="#Sc"/>Sed alia unius partis precise. Est enim et alia pausa quae continet
+                <lb ed="#Sc"/>medium spatium, et talis est semibrevis et minimae. Sed haec
+                <lb ed="#Sc"/>est doctrina, quia quae ponitur sub linea est semibrevis, quae ponitur
                 <lb ed="#Sc"/>super lineam, est minimae. Ut hic apparet.
-                <lb ed="#Sc"/> 
+                <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="images/Sc_ex_21.jpg" xml:id="Sc_ex_21"/>
+                    <graphic url="arsmusicae/images/Sc_ex_21.jpg" xml:id="Sc_ex_21"/>
                 </figure></p>
             </div>
-           
+
             <div type="explicit" xml:id="ScExplicit" corresp="#omnid36"><p><lb ed="#Sc"/><hi>E</hi>xplicit Deo gratias referamus Amen.</p></div>
-                
+
         </body>
     </text>
 </TEI>
-
-
