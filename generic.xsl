@@ -22,7 +22,7 @@
     </xsl:template>
 
     <xsl:template match="tei:graphic">
-        <br/><a href="Javascript:newPopup('..{@url}/images/large');"><img src="../{@url}/images" alt="altTextGoesHere"/></a>
+        <br/><a href="Javascript:newPopup('../images/large/{@url}');"><img src="../images/{@url}" alt="altTextGoesHere"/></a>
     </xsl:template>
 
     <xsl:template match="tei:hi">
