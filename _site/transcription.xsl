@@ -3,7 +3,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:tei="http://www.tei-c.org/ns/1.0">
 	<xsl:output method="html" version="4.01" encoding="utf-8" indent="yes" doctype-system="http://www.w3.org/TR/html4/strict.dtd" doctype-public="-//W3C//DTD HTML 4.01//EN" />
-	
+
 	<xsl:include href="generic.xsl"/>
 	<xsl:template match="/">
 		<html>
@@ -13,9 +13,9 @@
 			<meta name="keywords" content="" />
 			<meta name="description" content="" />
 			<link href="default.css" rel="stylesheet" type="text/css" />
-	
-				
-				
+
+
+
 			</head>
 			<body>
 				<div id="header">
@@ -33,7 +33,7 @@
 					</ul>
 				</div>
 				<div id="content">
-					
+
 					<div id="left">
 						<h2><xsl:value-of select="//tei:settlement"/><xsl:text>, </xsl:text>
 							<xsl:value-of select="//tei:repository"/><xsl:text>, </xsl:text>
@@ -64,7 +64,7 @@
 				</p>
 					<!-- <div id="translationText">
 						<p id="{@xml:id}Trans" class="hidden">
-							 <xsl:for-each select="tokenize(@corresp, '\div+')"> 
+							 <xsl:for-each select="tokenize(@corresp, '\div+')">
 								<xsl:variable name="baseDoc" select="substring-before(.,'#')"/>
 								<xsl:variable name="fragment" select="substring-after(.,'#')"/>
 								<xsl:variable name="otherDoc" select="doc($baseDoc )"/>
@@ -76,9 +76,9 @@
 			<xsl:otherwise/>
 		</xsl:choose>
 	</xsl:template>
-	
+
 	<xsl:template name="imageContent">
-		<h2>Images<xsl:text> </xsl:text> 
+		<h2>Images<xsl:text> </xsl:text>
 			<script type="text/javascript">
 			// Popup window code
 			function newPopup(url) {
@@ -93,9 +93,9 @@
 			select="//tei:repository"></xsl:value-of>, <xsl:value-of
 				select="//tei:settlement"></xsl:value-of> and may not be downloaded.</i></p>
 		<xsl:for-each select="//tei:pb">
-			<hr/>[folio <xsl:value-of select="@n"/>] 
-			<a href="Javascript:newPopup('../zoomify/{@xml:id}.htm');">CLICK TO ZOOM</a><br />
-			<!-- testing code to protect images 
+			<hr/>[folio <xsl:value-of select="@n"/>]
+			<a href="Javascript:newPopup('../images/large/{@facs}');">CLICK TO ZOOM</a><br />
+			<!-- testing code to protect images
 			<div id="image1" style="background-image: url({@facs});">
 				<img src="blank.gif" height="631px" width="459px"/>
 			</div>-->
@@ -103,15 +103,15 @@
 			<xsl:apply-templates/>
 		</xsl:for-each>
 	</xsl:template>
-	
+
 	<!--<xsl:template name="musicExamples">
 		<xsl:for-each select="//tei:graphic">
 			<xsl:variable name="graphicURL"><xsl:value-of select="//tei:graphic/@url"/></xsl:variable>
 			<img src="../omni/images/{graphicURL}" alt="altTextGoesHere"/>
 		</xsl:for-each>
 	</xsl:template>-->
-	
-		
+
+
 	<!-- <xsl:template name="getPar4">
 		<h4>Chicago</h4>
 		<p><xsl:value-of select="normalize-space(//tei:div/id('omnid4'))"/></p>
@@ -122,5 +122,5 @@
 		<xsl:variable name="trans" select="doc('translation.xml')"/>
 		<p><xsl:value-of select="normalize-space($trans/id('trans4'))"/></p>
 	</xsl:template> -->
-	
+
 </xsl:stylesheet>

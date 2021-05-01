@@ -297,10 +297,10 @@
                     </app>
 
                         <figure>
-                            <graphic url="arsmusicae/images/Cn_ex_1.jpg" xml:id="Cn_ex_1"/>
+                            <graphic url="Cn_ex_1.jpg" xml:id="Cn_ex_1"/>
                         </figure>
             </div>
-             
+
             <!-- lacuna in Su starts here -->
             <!-- Chapter 5 -->
             <anchor xml:id="Su_lacuna_2_start"/>
@@ -320,7 +320,7 @@
                         <rdg wit="#Sc">ut hic patet.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_2.jpg" xml:id="Cn_ex_2"/>
+                        <graphic url="Cn_ex_2.jpg" xml:id="Cn_ex_2"/>
                     </figure>
                 </p>
             </div>
@@ -381,7 +381,7 @@
                         <rdg wit="#Sc">si longae addetur punctus perfectionis, perfecta est in modo imperfecto. Ut hic patet.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_3.jpg" xml:id="Cn_ex_3"/>
+                        <graphic url="Cn_ex_3.jpg" xml:id="Cn_ex_3"/>
                     </figure>
                 </p>
             </div>
@@ -472,7 +472,7 @@
                     </app>
                     , et tunc non valet nisi quinque tempora, ut hic patet.
                      <figure>
-                         <graphic url="arsmusicae/images/Cn_ex_4.jpg" xml:id="Cn_ex_4"/>
+                         <graphic url="Cn_ex_4.jpg" xml:id="Cn_ex_4"/>
                      </figure>
                 </p>
             </div>
@@ -532,7 +532,7 @@
                             </app>
 
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_5.jpg" xml:id="Cn_ex_5"/>
+                        <graphic url="Cn_ex_5.jpg" xml:id="Cn_ex_5"/>
                     </figure>
                 </p>
 
@@ -556,7 +556,7 @@
                             <rdg wit="#Sc">ipsam sequentes, ut hic patet.</rdg>
                         </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_6.jpg" xml:id="Cn_ex_6"/>
+                        <graphic url="Cn_ex_6.jpg" xml:id="Cn_ex_6"/>
                     </figure>
                 </p>
             </div>
@@ -625,7 +625,7 @@
                         <rdg wit="#Sc">poneretur, et tunc in medio.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_7.jpg" xml:id="Cn_ex_7"/>
+                        <graphic url="Cn_ex_7.jpg" xml:id="Cn_ex_7"/>
                     </figure>
                 </p>
             </div>
@@ -687,7 +687,7 @@
                         igitur secunda, et sic ex parte post</rdg>
                 </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_8.jpg" xml:id="Cn_ex_8"/>
+                        <graphic url="Cn_ex_8.jpg" xml:id="Cn_ex_8"/>
                     </figure>
                 </p>
             </div>
@@ -756,7 +756,7 @@
                         <rdg wit="#Sc">e converso prima est altera. Ut hic patet.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_9.jpg" xml:id="Cn_ex_9"/>
+                        <graphic url="Cn_ex_9.jpg" xml:id="Cn_ex_9"/>
                     </figure>
                 </p>
             </div>
@@ -823,7 +823,7 @@
                         <rdg wit="#Sc">et sic distinguitur maior et minor prolatio. Ut hic profertur.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_10.jpg" xml:id="Cn_ex_10"/>
+                        <graphic url="Cn_ex_10.jpg" xml:id="Cn_ex_10"/>
                     </figure>
                 </p>
             </div>
@@ -882,7 +882,7 @@
                         <rdg wit="#Sc">sicut dictum est de longis sive de longa. <del>hoc exemplum vacat</del></rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_11.jpg" xml:id="Cn_ex_11"/>
+                        <graphic url="Cn_ex_11.jpg" xml:id="Cn_ex_11"/>
                     </figure>
                 </p>
             </div>
@@ -920,7 +920,7 @@
                 </app>
                 alias, si fuerint subsequentes, ut hic.
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_12.jpg" xml:id="Cn_ex_12"/>
+                        <graphic url="Cn_ex_12.jpg" xml:id="Cn_ex_12"/>
                     </figure>
                 </p>
             </div>
@@ -967,7 +967,7 @@
                     </app>
                  ut hic.
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_13.jpg" xml:id="Cn_ex_13"/>
+                        <graphic url="Cn_ex_13.jpg" xml:id="Cn_ex_13"/>
                     </figure>
                 </p>
             </div>
@@ -1004,7 +1004,7 @@
                 Ut patet per exemplum.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_14.jpg" xml:id="Cn_ex_14"/>
+                        <graphic url="Cn_ex_14.jpg" xml:id="Cn_ex_14"/>
                     </figure>
                 </p>
             </div>
@@ -1078,7 +1078,7 @@
                     post semibrevem illam punctuatam sequeretur tunc semibrevis, pro divisione temporis assignatur, nisi forte semibreves <del>semibreves</del> ille sint de minori prolatione, post quas sequeretur aliqua sola minima quae reducitur ad semibrevem praedictam, puncto perfectionis punctuatam per cincopam et sic apparet qualiter cognoscitur unus punctus ab alio, ut hic.
                 <!-- [M60A] -->
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_15.jpg" xml:id="Cn_ex_15"/>
+                        <graphic url="Cn_ex_15.jpg" xml:id="Cn_ex_15"/>
                     </figure>
                 </p>
             </div>
@@ -1106,7 +1106,7 @@
                         <rdg wit="#Sc" type="omissio"/>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_16.jpg" xml:id="Cn_ex_16"/>
+                        <graphic url="Cn_ex_16.jpg" xml:id="Cn_ex_16"/>
                     </figure>
                  </p>
             </div>
@@ -1130,7 +1130,7 @@
                         <rdg wit="#Sc">ponitur.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_17.jpg" xml:id="Cn_ex_17"/>
+                        <graphic url="Cn_ex_17.jpg" xml:id="Cn_ex_17"/>
                     </figure>
                </p>
             </div>
@@ -1150,7 +1150,7 @@
                         </rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_18.jpg" xml:id="Cn_ex_18"/>
+                        <graphic url="Cn_ex_18.jpg" xml:id="Cn_ex_18"/>
                     </figure>
                </p>
             </div>
@@ -1243,7 +1243,7 @@
                         <rdg wit="#Sc" type="omissio" />
                     </app>.
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_19.jpg" xml:id="Cn_ex_19"/>
+                        <graphic url="Cn_ex_19.jpg" xml:id="Cn_ex_19"/>
                     </figure>
                 </p>
             </div>
@@ -1312,7 +1312,7 @@
                         <rdg wit="#Sc" type="omissio" />
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_20.jpg" xml:id="Cn_ex_20"/>
+                        <graphic url="Cn_ex_20.jpg" xml:id="Cn_ex_20"/>
                     </figure>
                 </p>
             </div>
@@ -1403,7 +1403,7 @@
 
                 </p>
                 <figure>
-                    <graphic url="arsmusicae/images/Cn_ex_21.jpg" xml:id="Cn_ex_21"/>
+                    <graphic url="Cn_ex_21.jpg" xml:id="Cn_ex_21"/>
                 </figure>
             </div>
 
@@ -1444,7 +1444,7 @@
                         qualitatem et propriam ipsarum formam.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_22.jpg" xml:id="Cn_ex_22"/>
+                        <graphic url="Cn_ex_22.jpg" xml:id="Cn_ex_22"/>
                     </figure>
                 </p>
             </div>
@@ -1480,7 +1480,7 @@
                     </choice>
                 reducitur separata ut hic.
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_23.jpg" xml:id="Cn_ex_23"/>
+                        <graphic url="Cn_ex_23.jpg" xml:id="Cn_ex_23"/>
                     </figure>
                 </p>
             </div>
@@ -1511,7 +1511,7 @@
                             </choice>
                 numerando perfectiones ipsius prolationis ad invicem reducuntur ut hic.
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_24.jpg" xml:id="Cn_ex_24"/>
+                        <graphic url="Cn_ex_24.jpg" xml:id="Cn_ex_24"/>
                     </figure>
                 </p>
             </div>
@@ -1559,7 +1559,7 @@
                         <rdg wit="#Sc"> Praeterea omnnis quadra in fine ligaturae descendendo etiam est longa. </rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_25.jpg" xml:id="Cn_ex_25"/>
+                        <graphic url="Cn_ex_25.jpg" xml:id="Cn_ex_25"/>
                     </figure>
                 </p>
             </div>
@@ -1591,7 +1591,7 @@
                     et e converso.</rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_26.jpg" xml:id="Cn_ex_26"/>
+                        <graphic url="Cn_ex_26.jpg" xml:id="Cn_ex_26"/>
                     </figure>
                 </p>
             </div>
@@ -1612,7 +1612,7 @@
                         </rdg>
                     </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_27.jpg" xml:id="Cn_ex_27"/>
+                        <graphic url="Cn_ex_27.jpg" xml:id="Cn_ex_27"/>
                     </figure>
                 </p>
             </div>
@@ -1676,7 +1676,7 @@
                            quae ponitur super lineam, est minimae. Ut hic apparet.</rdg>
                    </app>
                     <figure>
-                        <graphic url="arsmusicae/images/Cn_ex_28.jpg" xml:id="Cn_ex_28"/>
+                        <graphic url="Cn_ex_28.jpg" xml:id="Cn_ex_28"/>
                     </figure>
                 </p>
             </div>

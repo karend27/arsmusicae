@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0">
     <xsl:output method="html" version="4.01" encoding="utf-8" indent="yes" doctype-system="http://www.w3.org/TR/html4/strict.dtd" doctype-public="-//W3C//DTD HTML 4.01//EN" />
-    
+
     <xsl:include href="generic.xsl"/>
     <xsl:template match="/">
         <html>
@@ -13,20 +13,25 @@
                 <meta name="keywords" content="" />
                 <meta name="description" content="" />
                 <link href="default.css" rel="stylesheet" type="text/css" />
-                
+
                 <script type="text/javascript">
                     function changeme(id, action) {
-                    
+
                     	 if (action=="hide") {
-                    
+
                     			document.getElementById(id).style.display = "none";
-                    
+
                     	 } else {
-                    
+
                     			document.getElementById(id).style.display = "block";
-                    
+
                     	 }
-                    
+
+                    }
+
+                    function newPopup(url) {
+                    popupWindow = window.open(
+                    url,'popUpWindow','height=700,width=800,left=10,top=10,screenX="400",resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
                     }
 			    </script>
             </head>
@@ -43,11 +48,11 @@
                             href="translation.xml">Translation</a></li>
                         <li><a href="files.html">Files</a></li>
                         <li><a href="about.html">About</a> </li>
-                        <li><a href="http://www.arsmusicae.org/wordpress/">Blog</a></li> 
+                        <li><a href="http://www.arsmusicae.org/wordpress/">Blog</a></li>
                     </ul>
                 </div>
                 <div id="content">
-                    
+
                     <div id="left">
                         <h2>Critical Edition</h2>
                         <xsl:apply-templates/>
@@ -62,9 +67,9 @@
                 </div>
             </body>
         </html>
-        
+
     </xsl:template>
-     
+
     <!-- <xsl:template match="tei:p">
         <xsl:variable name="id"><xsl:number level="any" from="tei:text"/></xsl:variable>
         <p id="{@xml:id}" class="paragraphChapter"><a name="{$id}"
@@ -75,52 +80,52 @@
                     class="paragraphmenu">Paragraph Menu</a></span></p><div class="paradiv"
                     id="{@xml:id}" style="display: none;"></div> </p>
     </xsl:template>
-    
+
     <xsl:template match="div"/> -->
-    
+
     <xsl:template match="//tei:div[@corresp]">
         <xsl:choose>
             <xsl:when test="contains(@type, 'chapter')">
                 <p id="{@xml:id}"><a name="{@n}" class="paragraphnumber">[<xsl:value-of
                     select="@n"/>]</a>
                     <xsl:apply-templates/></p>
-                
-                    <!-- <xsl:for-each select="tokenize(@corresp, '\div+')"> 
+
+                    <!-- <xsl:for-each select="tokenize(@corresp, '\div+')">
                     <xsl:variable name="baseDoc" select="substring-before(.,'#')"/>
                     <xsl:variable name="fragment" select="substring-after(.,'#')"/>
                     <xsl:variable name="otherDoc" select="doc($baseDoc )"/>
                         <span onclick="changeme('translationText', 'hide');" style="text-decoration: underline; cursor: pointer;">Hide</span><xsl:text> </xsl:text>
                         <span onclick="changeme('translationText', 'show');" style="text-decoration: underline; cursor: pointer;">Show</span>
                     <div id="translationText"><xsl:value-of select="$otherDoc/id($fragment)"/></div>
-                    
+
                     </xsl:for-each>-->
             </xsl:when>
             <xsl:otherwise/>
         </xsl:choose>
     </xsl:template>
-          
+
     <xsl:template match="tei:lem">
         <xsl:apply-templates/>
     </xsl:template>
-        
-    <xsl:template match="tei:rdg"> 
+
+    <xsl:template match="tei:rdg">
         <xsl:apply-templates/>
     </xsl:template>
-    
+
     <xsl:template match="tei:app">
         <xsl:variable name="id"><xsl:number count="//tei:app" level="any" format="1"/></xsl:variable>
         <xsl:apply-templates select="tei:lem"/><sup><a href="#variant{$id}" name="variantreference{$id}" class="footnote"><xsl:copy-of select="$id"/></a></sup>
-    </xsl:template> 
-    
+    </xsl:template>
+
     <xsl:template name="variants">
-        
+
         <ul class="variantlist">
             <xsl:for-each select="//tei:app">
-                
+
                 <xsl:variable name="id">
                     <xsl:number count="//tei:app" level="any" format="1"/>
                 </xsl:variable>
-                
+
                 <li id="variant{$id}"><a href="#variantreference{$id}"><xsl:copy-of select="$id"/></a><xsl:text> </xsl:text>
                     <xsl:apply-templates select="tei:lem"/>]
                     <!-- <xsl:apply-templates select="tei:rdg"/>-->
@@ -147,7 +152,7 @@
                                 <em>corr. ex</em><xsl:text> </xsl:text>
                                 <xsl:value-of select="tei:subst/tei:del"/><xsl:text> </xsl:text>
                                 <xsl:value-of select="substring-after(@wit,'#')"/><xsl:text>   </xsl:text>
-                                </xsl:when>  -->  
+                                </xsl:when>  -->
                             <xsl:otherwise>
                                 <xsl:text> </xsl:text><xsl:value-of select="."/><xsl:text> </xsl:text>
                                 <span style="witnessName"><xsl:value-of
@@ -155,10 +160,10 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:for-each>
-                </li>  
+                </li>
             </xsl:for-each>
         </ul>
-        
+
     </xsl:template>
     
 </xsl:stylesheet>

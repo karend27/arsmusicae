@@ -92,7 +92,7 @@
                 <lb ed="#Sc"/>est imperfectus. Numeros vero ternarius perfectus est assumptus a Trinitate etcetera.
                 <lb ed="#Sc"/>Exemplum omnium istorum:
                <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_1.jpg" xml:id="Sc_ex_1"/>
+                    <graphic url="Sc_ex_1.jpg" xml:id="Sc_ex_1"/>
                 </figure></p>
             </div>
 
@@ -102,7 +102,7 @@
                 <lb ed="#Sc"/>praecedit. Vel quando plures quam tres breves ipsam secuntur similiter
                 <lb ed="#Sc"/>imperficitur. Ut hic patet.
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_2.jpg" xml:id="Sc_ex_2"/>
+                    <graphic url="Sc_ex_2.jpg" xml:id="Sc_ex_2"/>
                 </figure></p>
             </div>
 
@@ -115,7 +115,7 @@
                 <lb ed="#Sc"/>et in modo imperfecto. Ut hic patet:
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_3.jpg" xml:id="Sc_ex_3"/>
+                    <graphic url="Sc_ex_3.jpg" xml:id="Sc_ex_3"/>
                 </figure></p>
             </div>
 
@@ -126,7 +126,7 @@
                 <lb ed="#Sc"/>ipsam. Et tunc non valet nisi quinque tempora. Ut hic patet.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_4.jpg" xml:id="Sc_ex_4"/>
+                    <graphic url="Sc_ex_4.jpg" xml:id="Sc_ex_4"/>
                 </figure></p>
             </div>
 
@@ -141,7 +141,7 @@
 <pb n="63v" type="folio" facs="Sc63v.jpg" xml:id="Sc63v"/>
 
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_5.jpg" xml:id="Sc_ex_5"/>
+                    <graphic url="Sc_ex_5.jpg" xml:id="Sc_ex_5"/>
                 </figure></p>
             </div>
             <div type="chapter" n="7" xml:id="ScC7" corresp="#omnid10"><p><lb ed="#Sc"/><hi>I</hi>tem brevis tribus modis imper
@@ -149,7 +149,7 @@
                 brevis ipsam sequitur, aut
                 praecedit; vel quando sunt plures quam tres ipsam sequentes, ut hic patet.
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_6.jpg" xml:id="Sc_ex_6"/>
+                    <graphic url="Sc_ex_6.jpg" xml:id="Sc_ex_6"/>
                 </figure></p></div>
 
             <div type="chapter" n="8" xml:id="ScC8" corresp="#omnid11"><p><lb ed="#Sc"/><hi>E</hi>t si duae vel tres semibreves
@@ -165,7 +165,7 @@
                 <lb ed="#Sc"/>tunc in medio.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_7.jpg" xml:id="Sc_ex_7"/>
+                    <graphic url="Sc_ex_7.jpg" xml:id="Sc_ex_7"/>
                 </figure></p>
             </div>
 
@@ -177,7 +177,7 @@
                 <lb ed="#Sc"/>non primam; quia prima similatur secunde; igitur secunda; et sic ex parte post.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_8.jpg" xml:id="Sc_ex_8"/>
+                    <graphic url="Sc_ex_8.jpg" xml:id="Sc_ex_8"/>
                 </figure></p>
             </div>
 
@@ -188,14 +188,14 @@
                 <lb ed="#Sc"/> vel e converso prima est altera. Ut hic patet.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_9.jpg" xml:id="Sc_ex_9"/>
+                    <graphic url="Sc_ex_9.jpg" xml:id="Sc_ex_9"/>
                 </figure></p></div>
 
             <div type="chapter" n="12" xml:id="ScC12" corresp="#omnid14"><p><lb ed="#Sc"/><hi>E</hi>st autem semibrevis ad modum corporis obliqui, et valet tres
                 <lb ed="#Sc"/>minimas in prolatione maiori, duas in minori, et sic distinguitur
                 <lb ed="#Sc"/>maior et minor prolatio. Ut hic profertur.
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_10.jpg" xml:id="Sc_ex_10"/>
+                    <graphic url="Sc_ex_10.jpg" xml:id="Sc_ex_10"/>
                 </figure></p></div>
 
             <div type="chapter" n="13" xml:id="ScC13" corresp="#omnid15"><p><lb ed="#Sc"/><hi>I</hi>tem semibrevis imperficitur
@@ -204,11 +204,11 @@
                 <lb ed="#Sc"/>eam sequitur, vel precedit, vel quando plures quam tres ipsam
                 <lb ed="#Sc"/>secuntur, sicut dictum est de longis sive de longa.
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_11.jpg" xml:id="Sc_ex_11"/>
+                    <graphic url="Sc_ex_11.jpg" xml:id="Sc_ex_11"/>
                 </figure>
                 <del>
                     <figure>
-                        <graphic url="arsmusicae/images/Sc_ex_12.jpg" xml:id="Sc_ex_12"/>
+                        <graphic url="Sc_ex_12.jpg" xml:id="Sc_ex_12"/>
                     </figure>
                 </del>
                 <lb ed="#Sc"/>hoc exemplum vacat</p></div>
@@ -220,7 +220,7 @@
                 <lb ed="#Sc"/> perfecta est, nisi punctus divisionis sequatur inter primam minimam et secundam
                 <lb ed="#Sc"/>vel alias si fuerint subsequentes. Ut hic.
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_13.jpg" xml:id="Sc_ex_13"/>
+                    <graphic url="Sc_ex_13.jpg" xml:id="Sc_ex_13"/>
                 </figure></p></div>
 
             <div type="chapter" n="15" xml:id="ScC15" corresp="#omnid17"><p><lb ed="#Sc"/><hi>I</hi>tem semibrevis tripliciter alteratur
@@ -228,7 +228,7 @@
                 <lb ed="#Sc" type="nobreak"/>ves inveniuntur inter duas semibreves; vel inter punctum divisionis
                 <lb ed="#Sc"/>et brevem, vel e converso. Ut hic.
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_14.jpg" xml:id="Sc_ex_14"/>
+                    <graphic url="Sc_ex_14.jpg" xml:id="Sc_ex_14"/>
                 </figure></p>
             </div>
 
@@ -242,7 +242,7 @@
                 <lb ed="#Sc"/>Sic est hic. Tertio modo minima alteratur si duae ponantur inter
                 <lb ed="#Sc"/>punctum divisionis et maiorem. Ut patet per exemplum.
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_15.jpg" xml:id="Sc_ex_15"/>
+                    <graphic url="Sc_ex_15.jpg" xml:id="Sc_ex_15"/>
                 </figure></p></div>
 
             <div type="chapter" n="17" xml:id="ScC17" corresp="#omnid19"><p><lb ed="#Sc"/><hi>E</hi>t est sciendum quod duplex est
@@ -260,7 +260,7 @@
                 <lb ed="#Sc"/>habet dividere tempora, et hoc secundum ergo ssities:
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_16.jpg" xml:id="Sc_ex_16"/>
+                    <graphic url="Sc_ex_16.jpg" xml:id="Sc_ex_16"/>
                 </figure></p>
             </div>
 
@@ -272,7 +272,7 @@
                 <lb ed="#Sc"/>pro minori vero duo. Ut patet hic de omnibus.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_17.jpg" xml:id="Sc_ex_16"/>
+                    <graphic url="Sc_ex_17.jpg" xml:id="Sc_ex_16"/>
                 </figure></p>
             </div>
 
@@ -292,7 +292,7 @@
                 <lb ed="#Sc"/>fer animus.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_18.jpg" xml:id="Sc_ex_18"/>
+                    <graphic url="Sc_ex_18.jpg" xml:id="Sc_ex_18"/>
                 </figure></p>
             </div>
 
@@ -301,7 +301,7 @@
                 <lb ed="#Sc"/>ad earum totum, secundum qualitatem et propriam ipsarum formam:
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_19.jpg" xml:id="Sc_ex_19"/>
+                    <graphic url="Sc_ex_19.jpg" xml:id="Sc_ex_19"/>
                 </figure>
             </p></div>
 
@@ -317,7 +317,7 @@
                 <lb ed="#Sc"/>breves sunt. Ut hic apparet.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_20.jpg" xml:id="Sc_ex_20"/>
+                    <graphic url="Sc_ex_20.jpg" xml:id="Sc_ex_20"/>
                 </figure></p>
             </div>
 
@@ -330,7 +330,7 @@
                 <lb ed="#Sc"/>super lineam, est minimae. Ut hic apparet.
                 <lb ed="#Sc"/>
                 <figure>
-                    <graphic url="arsmusicae/images/Sc_ex_21.jpg" xml:id="Sc_ex_21"/>
+                    <graphic url="Sc_ex_21.jpg" xml:id="Sc_ex_21"/>
                 </figure></p>
             </div>
 
